@@ -1,0 +1,61 @@
+/* fuentes */
+.toxigenesis {
+    font-family: 'Toxigenesis';
+}
+
+.dm-serif-text-regular {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .dm-serif-text-regular-italic {
+    font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+
+/* clases */ 
+
+.navegacion-lateral-container{
+    display:flex;
+    flex-direction: column;
+    position: sticky;
+    top:0;
+    left:0;
+    height: 100vh;
+    justify-content: center;
+}
+
+.navegacion-lateral-top{
+
+}
+
+.navegacion-lateral-menu{
+    display: flex;
+    padding-top: 10vh;
+    justify-content:center;
+    align-items:start;
+}
+
+.navegacion-lateral-footer{
+    display: flex;
+    padding-top: 40vh;
+    text-align: center;
+}
+
+.container-foto-intro{
+    padding-left: 5vw;
+}
+
+.intro-text{
+    font-family: "DM Serif Text", serif;
+    font-size: 9vw;
+}
+
+.intro-text-footer{
+    font-family: "DM Serif Text", serif;
+    font-size: 2vw;
+    font-style: italic;
+}
