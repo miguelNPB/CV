@@ -9,14 +9,158 @@
     font-style: normal;
   }
   
-  .dm-serif-text-regular-italic {
+.dm-serif-text-regular-italic {
     font-family: "DM Serif Text", serif;
+    font-weight: 400;
+    font-style: italic;
+    }
+
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+  }
+  
+  .poppins-extralight {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+  }
+  
+  .poppins-light {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+  
+  .poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+  }
+  
+  .poppins-bold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .poppins-extrabold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+  }
+  
+  .poppins-black {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+  .poppins-thin-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 100;
+    font-style: italic;
+  }
+  
+  .poppins-extralight-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: italic;
+  }
+  
+  .poppins-light-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .poppins-regular-italic {
+    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: italic;
   }
   
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+  
+  .poppins-semibold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+  }
+  
+  .poppins-bold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+  .poppins-extrabold-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 800;
+    font-style: italic;
+  }
+  
+  .poppins-black-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 900;
+    font-style: italic;
+  }
 
+.roboto-flex-regular {
+    font-family: "Roboto Flex", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+.roboto-flex-light {
+font-family: "Roboto Flex", sans-serif;
+font-optical-sizing: auto;
+font-weight: 200;
+font-style: normal;
+}
+
+.roboto-flex-bold {
+font-family: "Roboto Flex", sans-serif;
+font-optical-sizing: auto;
+font-weight: 600;
+font-style: bold;
+}
+  
 /* clases */ 
+
+body{
+    overflow-x:hidden;
+}
+
+hr{
+    margin-left:2vw;
+    margin-right:2vw;
+    margin-top:5vh;
+    border-radius:3px;
+    border: 5px solid lightgray; 
+}
+
+li::marker{
+    font-size: 35px;
+}
 
 .navegacion-lateral-container{
     display:flex;
@@ -51,11 +195,55 @@
 
 .intro-text{
     font-family: "DM Serif Text", serif;
-    font-size: 9vw;
+    font-size: 18vh;
 }
 
 .intro-text-footer{
     font-family: "DM Serif Text", serif;
-    font-size: 2vw;
+    font-size: 4vh;
     font-style: italic;
+}
+
+.section-intro-text{
+    font-family: "DM Serif Text", serif;
+    font-size:5vw;
+    font-weight: 100;
+}
+
+.container-logos-habilidades{
+    gap: 5%;
+}
+
+.imagen-logos-habilidades{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    width: 10vw;
+}
+
+.imagen-logos-texto{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    padding-top: 10px;
+    text-align: center;
+}
+
+.lista-educacion{
+    display: flex;
+    flex-direction: row;
+    gap: 10vw;
+    text-align: center;
+}
+
+.educacion-texto-year{
+    font-size: 2vw;
+    font-weight: 600;
+    font-family: "Roboto Flex", sans-serif;
+}
+
+.educacion-texto-title{
+    font-size: 2vw;
+    font-weight: 200;
+    font-family: "Roboto Flex", sans-serif;
 }
