@@ -169,25 +169,27 @@ li::marker{
     top:0;
     left:0;
     height: 100vh;
-    justify-content: center;
+    justify-content: start;
 }
 
 .navegacion-lateral-top{
-
 }
 
 .navegacion-lateral-menu{
-    display: flex;
-    padding-top: 10vh;
     justify-content:center;
-    align-items:start;
+}
+
+.navegacion-lateral-text{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 200;
+    font-size: 4vh;
 }
 
 .navegacion-lateral-footer{
     display: flex;
-    padding-top: 40vh;
-    text-align: center;
 }
+
+.navegacion-lateral
 
 .container-foto-intro{
     padding-left: 5vw;
