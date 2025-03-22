@@ -162,17 +162,20 @@ li::marker{
     font-size: 35px;
 }
 
+/* Cambio de valores para moviles */
+@media only screen and (max-width: 768px) {
+  .navegacion-lateral-container {
+      position: sticky;
+  }
+}
+
 .navegacion-lateral-container{
     display:flex;
     flex-direction: column;
-    position: sticky;
+    position:sticky;
     top:0;
     left:0;
     height: 100vh;
-    justify-content: start;
-}
-
-.navegacion-lateral-top{
 }
 
 .navegacion-lateral-menu{
@@ -182,13 +185,23 @@ li::marker{
 .navegacion-lateral-text{
     font-family: "Roboto Flex", sans-serif;
     font-weight: 200;
-    font-size: 4vh;
+    font-size: 2vw;
 }
 
 .navegacion-lateral-footer{
     display: flex;
 }
 
+.navegacion-lateral-footer-element-container{
+    height: 1.7vw;
+}
+
+.navegacion-lateral-footer-element-text{
+    font-size: clamp(0.5vw, 0.7vw, 0.8vw);
+    font-weight: 600;
+    padding-top: 0.3vh;
+    padding-left: 0.5vw;
+}
 
 .container-foto-intro{
     padding-left: 5vw;
@@ -247,4 +260,60 @@ li::marker{
     font-size: 2vw;
     font-weight: 200;
     font-family: "Roboto Flex", sans-serif;
+}
+
+.portfolio-container{
+  display:flex;
+  height: 15vw;
+  flex-direction: row;
+  overflow: hidden;
+  white-space: nowrap;
+  mask-image: linear-gradient(
+    to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 20%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0));
+}
+
+@keyframes loopRight {
+  from{
+    translate:0 0;
+  }
+  to {
+    translate: -100vw 0;
+  }
+}
+
+.portfolio-image{
+  position: absolute;
+  left:100%;
+  animation-name: loopRight;
+  animation-duration: 20s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  width:15vw;
+}
+
+.portfolio-1{
+  animation-delay: calc(20s / 6 * (6 - 1) * -1);
+}
+.portfolio-2{
+  animation-delay: calc(20s / 6 * (6 - 2) * -1);
+}
+.portfolio-3{
+  animation-delay: calc(20s / 6 * (6 - 3) * -1)
+}
+.portfolio-4{
+  animation-delay: calc(20s / 6 * (6 - 4) * -1);
+}
+.portfolio-5{
+  animation-delay: calc(20s / 6 * (6 - 5) * -1);
+}
+.portfolio-6{
+  animation-delay: calc(20s / 6 * (6 - 6) * -1);
+}
+
+.portfolio-goto-text{
+  
 }

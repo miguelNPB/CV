@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miguel GameDev Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="fonts.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- Full page container -->
+  <div class="d-sm-none d-lg-flex">
+
+    <!-- Navigation bar -->
+    <div class="col-sm-12 col-lg-2 navegacion-lateral-container bg-black">
+      <button id="menu-toggle" class="d-lg-none btn btn-primary position-fixed" style="top: 10px; left: 10px; z-index: 1000;">
+        Menú
+      </button>
+      <div class="d-flex justify-content-center gap-3 col-5 align-self-center">
+        <a href="home_en.html">
+          <img src="assets/ingles_logo.png" class="img-fluid">
+        </a>
+        <a href="home_es.html">
+          <img src="assets/castellano_logo.png" class="img-fluid">
+        </a>
+      </div>
+
+      <div class="mx-4">
+        <img src="assets/MiguelPerez_logo_cropped.png" class="img-fluid">
+      </div>
+      <div class="navegacion-lateral-menu">
+        <ul class="list-unstyled text-center">
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#SobreMi"> Sobre mí </a>
+          </li>
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#Habilidades"> Habilidades </a>
+          </li>
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#Educacion"> Educacion </a>
+          </li>
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#Experiencia"> Experiencia </a>
+          </li>
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#Portfolio"> Portfolio </a>
+          </li>
+        </ul>
+      </div>
+      <div class="navegacion-lateral-footer d-flex flex-column align-items-center mt-auto pb-5">
+          <div class="d-flex col-12 pb-4">
+            <a class="d-flex flex-row container text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://github.com/miguelNPB" target="_blank">
+              <img src="assets/github_link.svg" class="img-fluid">
+            </a>
+            <a class="d-flex flex-row container text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://mail.google.com/mail/?view=cm&to=miguelperezballester0@gmail.com" target="_blank">
+              <img src="assets/linkedin_link.png" class="img-fluid">
+            </a>
+            <a class="d-flex flex-row container text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://miguelpb.itch.io/" target="_blank">
+              <img src="assets/itch.io_logo.png" class="img-fluid">
+            </a>
+          </div>
+          <a class="d-flex flex-row container text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://mail.google.com/mail/?view=cm&to=miguelperezballester0@gmail.com" target="_blank">
+            <img src="assets/gmail_icon.png" class="img-fluid h-100">
+            <p class="navegacion-lateral-footer-element-text">miguelperezballester0@gmail.com</p>
+          </a>
+      </div>
+    </div>
+
+    <!-- Main page container -->
+    <div class="col-sm-12 col-lg-10 d-flex flex-column">
+
+
+      <!-- Sobre mí -->
+      <section class="d-flex flex-column" id="SobreMi">
+        
+
+        <!-- Intro foto perfil -->
+        <div class="container-foto-intro d-flex flex-row">
+          <div class="col-5 align-content-center">
+            <img src="assets/FotoMiguel.jpg" class="img-fluid w-100" alt="Foto perfil Miguel">
+          </div>
+          <div class="col-8 ps-5">
+            <h1 class="intro-text">Miguel Norberto Pérez Ballester</h1>
+            <h1 class="intro-text-footer">Desarrollador y diseñador de videojuegos</h1>
+          </div>
+        </div>
+
+        
+        <hr>
+        
+        <div class="d-flex flex-column align-items-center">
+          <h1 class="section-intro-text pb-4"> Sobre mí </h1>
+          <!-- Texto resumen -->
+         <p>
+          Diseñador y desarrollador de videojuegos en curso de graduarme del grado de Diseño y Desarrollo de Videojuegos de la Universidad Complutense. TODO
+         </p>
+          <!-- Tabla informacion -->
+         <div class="d-flex col-10">
+          <table class="table">
+            <tbody>
+              <tr>
+                <th scope="row" class="w-50">Edad</th>
+                <td>20</td>
+              </tr>
+              <tr>
+                <th scope="row">E-mail</th>
+                <td>miguelperezballester0@gmail.com</td>
+              </tr>
+              <tr>
+                <th scope="row">Residencia</th>
+                <td>España, Madrid</td>
+              </tr>
+              <tr>
+                <th scope="row">Idiomas</th>
+                <td>Español (Nativo), Inglés (Avanzado, nivel C1)</td>
+              </tr>
+            </tbody>
+          </table>
+         </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <!-- Habilidades -->
+      <section class="d-flex align-items-center flex-column pb-5" id="Habilidades">
+        <h1 class="section-intro-text pb-4"> Habilidades </h1>
+
+        <div class="d-flex flex-wrap col-10 container-logos-habilidades">
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/unity_logo.png">
+            <p class="imagen-logos-texto">Unity</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/git_github_logo.png">
+            <p class="imagen-logos-texto">Github y Git</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/csharp_logo.png">
+            <p class="imagen-logos-texto">C# (Unity)</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/c++_logo.png">
+            <p class="imagen-logos-texto">C++</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/c_logo.png">
+            <p class="imagen-logos-texto">C</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/python_logo.png">
+            <p class="imagen-logos-texto">Python</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/blender_logo.png">
+            <p class="imagen-logos-texto">Blender</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/opengl_logo.png">
+            <p class="imagen-logos-texto">OpenGL</p>
+          </div>
+          <a class="imagen-logos-habilidades text-decoration-none text-dark" href="https://www.ogre3d.org/" target="_blank">
+            <img class="img-fluid" src="assets/ogre_logo.png">
+            <p class="imagen-logos-texto">Ogre3D</p>
+          </a>
+          <a class="imagen-logos-habilidades text-decoration-none text-dark" href="https://phaser.io/why-phaser" target="_blank">
+            <img class="img-fluid" src="assets/phaser_logo.png">
+            <p class="imagen-logos-texto">Phaser</p>
+          </a>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/javascript_logo.png">
+            <p class="imagen-logos-texto">Javascript</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/bootstrap_logo.png">
+            <p class="imagen-logos-texto">Bootstrap</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/vr_logo.png">
+            <p class="imagen-logos-texto">VR (Unity)</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/ingles_logo.png">
+            <p class="imagen-logos-texto">Inglés C1</p>
+          </div>
+          <div class="imagen-logos-habilidades">
+            <img class="img-fluid" src="assets/softskills_logo.png">
+            <p class="imagen-logos-texto">Soft Skills</p>
+          </div>
+        </div>
+      </section>
+      
+      <hr>
+
+      <!-- Educacion -->
+      <section class="d-flex align-items-center flex-column pb-5" id="Educacion">
+        <h1 class="section-intro-text pb-4"> Educación </h1>
+
+        <div class="lista-educacion d-flex col-11">
+            <div class="col-2">
+              <p class="educacion-texto-year">2007-2022</p>
+              <p class="educacion-texto-title">Bachillerato</p>
+              <p> Colegio La Purísima - Torrevieja <br> Nota media: 9,06</p>
+            </div>
+            <div class="col-3">
+              <p class="educacion-texto-year">2021 / 10</p>
+              <a class="educacion-texto-title text-decoration-none text-dark" href="assets/C1.pdf" target="_blank">C1 Inglés Cambridge</a>
+            </div>
+            <div class="col-4">
+              <p class="educacion-texto-year">2022-...</p>
+              <p class="educacion-texto-title">Grado Diseño y Desarrollo de Videojuegos</p>
+              <p>Universidad Complutense de Madrid <br>Nota media actual: 7.88</p>
+            </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <!-- Experiencia -->
+      <section class="d-flex align-items-center flex-column pb-5" id="Experiencia">
+        <h1 class="section-intro-text pb-4"> Experiencia </h1>
+
+        <div class="lista-educacion d-flex col-11">
+          <div class="col-4">
+            <p class="educacion-texto-year">2023 / 7 - 2023 / 9<br>2024 / 7 - 2024 / 9</p>
+            <p class="educacion-texto-title">McDonalds</p>
+            <p> La Zenia - Trabajo de verano</p>
+          </div>
+          <div class="col-4">
+            <p class="educacion-texto-year">2025 - ?</p>
+            <p class="educacion-texto-title">Buscando prácticas en empresa</p>
+            <p></p>
+          </div>
+      </div>
+      </section>
+
+      <hr>
+
+      <!-- Portfolio -->
+      <section class="d-flex align-items-center flex-column pb-5" id="Portfolio">
+        <h1 class="section-intro-text pb-4"> Portfolio </h1>
+
+        <div class="portfolio-container col-12">
+          <img src="assets/blender_logo.png" class="portfolio-image portfolio-1">
+          <img src="assets/bootstrap_logo.png" class="portfolio-image portfolio-2">
+          <img src="assets/c++_logo.png" class="portfolio-image portfolio-3">
+          <img src="assets/c++_logo.png" class="portfolio-image portfolio-4">
+          <img src="assets/c++_logo.png" class="portfolio-image portfolio-5">
+          <img src="assets/c++_logo.png" class="portfolio-image portfolio-6">
+        </div>
+
+        <h1 class="">VER PORTFOLIO</h1>
+
+      </section>
+    </div>
+
+  </div>
+
+  <!-- Footer -->
+  <footer class="py-3 bg-dark text-light">
+    <div class="container text-center">
+      <p>&copy; 2025 Miguel Norberto Pérez Ballester</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS Bundle -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Custom JS -->
+   <script src="script.js"></script>
+</body>
+</html>
