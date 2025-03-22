@@ -164,32 +164,22 @@ li::marker{
 
 /* Cambio de valores para moviles */
 @media only screen and (max-width: 768px) {
-  .navegacion-lateral-container {
-      position: sticky;
+  .navegacion-lateral-container{
+    width: 100vw;
+    position: fixed;
+    z-index: 99999;
+  }
+  .navegacion-lateral-text{
   }
 }
-
 .navegacion-lateral-container{
-    display:flex;
-    flex-direction: column;
-    position:sticky;
-    top:0;
-    left:0;
-    height: 100vh;
-}
-
-.navegacion-lateral-menu{
-    justify-content:center;
+  height: 100vh;
 }
 
 .navegacion-lateral-text{
     font-family: "Roboto Flex", sans-serif;
     font-weight: 200;
-    font-size: 2vw;
-}
-
-.navegacion-lateral-footer{
-    display: flex;
+    font-size: 2em;
 }
 
 .navegacion-lateral-footer-element-container{
@@ -312,8 +302,4 @@ li::marker{
 }
 .portfolio-6{
   animation-delay: calc(20s / 6 * (6 - 6) * -1);
-}
-
-.portfolio-goto-text{
-  
 }
