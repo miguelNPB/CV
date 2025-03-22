@@ -181,7 +181,16 @@ li::marker{
   }
   .container-foto-intro{
     padding-left: 0vw !important;
-}
+  }
+  p{
+    font-size:2.5vw;
+  }
+  .educacion-texto-year{
+    font-size: 5vw !important;
+  }
+  .educacion-texto-title{
+    font-size: 4.5vw !important;
+  }
 }
 .navegacion-lateral-container{
   height: 100vh;
@@ -233,8 +242,6 @@ li::marker{
     padding-left: 5vw;
 }
 
-
-
 .intro-text{
     font-family: "DM Serif Text", serif;
     font-size: 8vw;
@@ -274,7 +281,6 @@ li::marker{
 .lista-educacion{
     display: flex;
     flex-direction: row;
-    gap: 10vw;
     text-align: center;
 }
 
