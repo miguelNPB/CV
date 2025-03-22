@@ -164,7 +164,7 @@ li::marker{
 
 
 /* Cambio de valores para moviles/tablets */
-@media only screen and (max-width: 575px) {
+@media only screen and (max-width: 767px) {
   .navegacion-lateral-container{
     width: 100vw;
   }

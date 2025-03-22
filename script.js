@@ -10,7 +10,7 @@ hamburguerButton.addEventListener('click', () => {
 
 Array.from(navLinks).forEach((link) =>{
     link.addEventListener('click', (event) => {
-    if (window.innerWidth < 575) {
+    if (window.innerWidth < 767) {
         contentDiv.classList.toggle('hidden');
     }
     })
