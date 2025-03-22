@@ -17,13 +17,17 @@
 </head>
 <body>
   <!-- Full page container -->
-  <div class="d-sm-none d-lg-flex">
+  <div class="d-md-flex">
+    
+  <!-- Navigation bar button-->
+  <button id="toggleButton" class="d-md-block d-md-none button-toggle-nav">
+    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+      <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5"/>
+    </svg>
+  </button>
 
-    <!-- Navigation bar -->
-    <div class="d-flex flex-column col-sm-12 col-lg-2 position-fixed bg-light navegacion-lateral-container">
-      <button id="menu-toggle" class="d-lg-none btn btn-primary position-fixed" style="top: 10px; left: 10px; z-index: 1000;">
-        Menú
-      </button>
+  <!-- Navigation bar -->
+  <div class="d-flex flex-column col-12 col-md-2 position-fixed collapse bg-light navegacion-lateral-container" id="contentDiv">    
       <div class="d-flex justify-content-center gap-3 col-5 align-self-center">
         <a href="home_en.html">
           <img src="assets/ingles_logo.png" class="img-fluid">
@@ -55,51 +59,49 @@
           </li>
         </ul>
       </div>
-      <div class="d-flex flex-column align-items-center mt-auto pb-5">
-          <div class="d-flex col-12 pb-4">
-            <a class="d-flex flex-row container text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://github.com/miguelNPB" target="_blank">
-              <img src="assets/github_link.svg" class="img-fluid">
+      <div class="d-flex flex-column mt-auto pb-md-5 text-center">
+          <div class="d-flex col-sm-12 pb-2 pb-md-4">
+            <a class="col-4 text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://github.com/miguelNPB" target="_blank">
+              <img src="assets/github_link.svg" class="img-fluid h-100">
             </a>
-            <a class="d-flex flex-row container text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://mail.google.com/mail/?view=cm&to=miguelperezballester0@gmail.com" target="_blank">
-              <img src="assets/linkedin_link.png" class="img-fluid">
+            <a class="col-4 text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://mail.google.com/mail/?view=cm&to=miguelperezballester0@gmail.com" target="_blank">
+              <img src="assets/linkedin_link.png" class="img-fluid h-100">
             </a>
-            <a class="d-flex flex-row container text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://miguelpb.itch.io/" target="_blank">
-              <img src="assets/itch.io_logo.png" class="img-fluid">
+            <a class="col-4 text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://miguelpb.itch.io/" target="_blank">
+              <img src="assets/itch.io_logo.png" class="img-fluid h-100">
             </a>
           </div>
-          <a class="d-flex flex-row container text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://mail.google.com/mail/?view=cm&to=miguelperezballester0@gmail.com" target="_blank">
-            <img src="assets/gmail_icon.png" class="img-fluid h-100">
-            <p class="navegacion-lateral-footer-element-text">miguelperezballester0@gmail.com</p>
+          <a class="d-flex flex-row col-12 text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://mail.google.com/mail/?view=cm&to=miguelperezballester0@gmail.com" target="_blank">
+            <!--<img src="assets/gmail_icon.png" class="img-fluid h-100"> -->
+            <p class="navegacion-lateral-footer-element-text px-4 mx-3 mx-lg-0 px-lg-1">miguelperezballester0@gmail.com</p>
           </a>
       </div>
     </div>
 
     <!-- Main page container -->
-    <div class="col-sm-12 col-lg-10 offset-lg-2 d-flex flex-column">
+    <div class="col-sm-12 col-md-10 offset-0 offset-md-2 d-flex flex-column">
 
 
       <!-- Sobre mí -->
       <section class="d-flex flex-column" id="SobreMi">
-        
-
+    
         <!-- Intro foto perfil -->
-        <div class="container-foto-intro d-flex flex-row">
-          <div class="col-5 align-content-center">
+        <div class="container-foto-intro d-flex flex-column flex-md-row">
+          <div class="col-12 col-md-5 align-content-center">
             <img src="assets/FotoMiguel.jpg" class="img-fluid w-100" alt="Foto perfil Miguel">
           </div>
-          <div class="col-8 ps-5">
+          <div class="col-12 col-md-8 ps-0 ps-md-5">
             <h1 class="intro-text">Miguel Norberto Pérez Ballester</h1>
             <h1 class="intro-text-footer">Desarrollador y diseñador de videojuegos</h1>
           </div>
         </div>
 
-        
         <hr>
         
         <div class="d-flex flex-column align-items-center">
           <h1 class="section-intro-text pb-4"> Sobre mí </h1>
           <!-- Texto resumen -->
-         <p>
+         <p class="text-center">
           Diseñador y desarrollador de videojuegos en curso de graduarme del grado de Diseño y Desarrollo de Videojuegos de la Universidad Complutense. TODO
          </p>
           <!-- Tabla informacion -->
@@ -257,7 +259,9 @@
           <img src="assets/c++_logo.png" class="portfolio-image portfolio-6">
         </div>
 
-        <h1 class="">VER PORTFOLIO</h1>
+        <a class="text-decoration-none pt-5 col-8 text-center" href="portfolio.html">
+          <p class="goto-portfolio-text rounded-5 bg-light text-black-50 px-5">VER PORTFOLIO</p>
+        </a>
 
       </section>
     </div>

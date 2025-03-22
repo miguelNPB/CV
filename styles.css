@@ -162,18 +162,30 @@ li::marker{
     font-size: 35px;
 }
 
-/* Cambio de valores para moviles */
-@media only screen and (max-width: 768px) {
+
+/* Cambio de valores para moviles/tablets */
+@media only screen and (max-width: 575px) {
   .navegacion-lateral-container{
     width: 100vw;
-    position: fixed;
-    z-index: 99999;
   }
-  .navegacion-lateral-text{
+  .navegacion-lateral-footer-element-text{
+    font-size: 5vw !important;
   }
+  .intro-text{
+    font-size: 13vw !important;
+    text-align: center;
+  }
+  .intro-text-footer{
+    font-size: 5vw !important;
+    text-align: center;
+  }
+  .container-foto-intro{
+    padding-left: 0vw !important;
+}
 }
 .navegacion-lateral-container{
   height: 100vh;
+  z-index: 99;
 }
 
 .navegacion-lateral-text{
@@ -183,23 +195,49 @@ li::marker{
 }
 
 .navegacion-lateral-footer-element-container{
-    height: 1.7vw;
+  height:2.5em;  
+  align-items: center;
 }
 
 .navegacion-lateral-footer-element-text{
-    font-size: clamp(0.5vw, 0.7vw, 0.8vw);
+    font-size: 1vw;
     font-weight: 600;
-    padding-top: 0.3vh;
-    padding-left: 0.5vw;
+}
+
+#contentDiv {
+  opacity: 1;
+  max-height: 100%; /* Altura máxima para la animación */
+  overflow: hidden;
+  transition: opacity 0.5s ease, max-height 0.5s ease;
+}
+
+#contentDiv.hidden {
+  opacity: 0;
+  max-height: 0;
+}
+
+/* Estilo adicional para el botón */
+#toggleButton {
+  margin-bottom: 20px;
+}
+
+.button-toggle-nav{
+  position:fixed;
+  background: none;
+  border:none;
+  z-index: 100;
+  width:15vw;
 }
 
 .container-foto-intro{
     padding-left: 5vw;
 }
 
+
+
 .intro-text{
     font-family: "DM Serif Text", serif;
-    font-size: 18vh;
+    font-size: 8vw;
 }
 
 .intro-text-footer{
@@ -302,4 +340,10 @@ li::marker{
 }
 .portfolio-6{
   animation-delay: calc(20s / 6 * (6 - 6) * -1);
+}
+
+.goto-portfolio-text{
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 200;
+  font-size: 3vw;
 }
