@@ -146,8 +146,11 @@ font-style: bold;
   
 /* clases */ 
 
-body{
+body, html{
     overflow-x:hidden;
+    margin: 0;
+    width: 100%; 
+    overflow-x: hidden; 
 }
 
 hr{
@@ -160,6 +163,13 @@ hr{
 
 li::marker{
     font-size: 35px;
+}
+
+th{
+  font-size:1vw;
+}
+td{
+  font-size:1vw
 }
 
 
@@ -190,6 +200,15 @@ li::marker{
   }
   .educacion-texto-title{
     font-size: 4.5vw !important;
+  }
+  .section-intro-text{
+    font-size: 9vw !important;
+  }
+  th{
+    font-size:3vw;
+  }
+  td{
+    font-size:3vw
   }
 }
 .navegacion-lateral-container{
