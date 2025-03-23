@@ -4,6 +4,8 @@ const contentDiv = document.getElementById('contentDiv');
 const containerNav = document.getElementById('navLinksContainer')
 const navLinks = containerNav.getElementsByTagName('a')
 
+contentDiv.classList.toggle('hidden');
+
 hamburguerButton.addEventListener('click', () => {
     contentDiv.classList.toggle('hidden');
 });
