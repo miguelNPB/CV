@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Miguel GameDev Portfolio</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+<!-- Full page container -->
+<div class="d-flex overflow-x-hidden">
+    
+    <!-- Navigation bar button-->
+    <button id="hamburguerButton" class="d-md-flex d-md-none button-toggle-nav pt-3 mx-2">
+      <img src="assets/3lines.png" class="img-fluid">
+    </button>
+    <!-- Navigation bar -->
+    <div class="d-flex flex-column col-12 col-md-2 position-fixed collapse bg-light navegacion-lateral-container" id="contentDiv">    
+        <div class="d-flex justify-content-center gap-3 col-5 align-self-center">
+          <a href="portfolio_en.html">
+            <img src="assets/ingles_logo.png" class="img-fluid">
+          </a>
+          <a href="portfolio_es.html">
+            <img src="assets/castellano_logo.png" class="img-fluid">
+          </a>
+        </div>
+        <h1></h1>
+        <div class="mx-4">
+          <img src="assets/MiguelPerez_logo_cropped.png" class="img-fluid">
+        </div>
+        <div class="justify-content-center">
+          <ul class="list-unstyled text-center" id="navLinksContainer">
+            <li>
+              <a class="nav-link navegacion-lateral-text" href="home_en.html#SobreMi"> About me </a>
+            </li>
+            <li>
+              <a class="nav-link navegacion-lateral-text" href="home_en.html#Habilidades"> Skills </a>
+            </li>
+            <li>
+              <a class="nav-link navegacion-lateral-text" href="home_en.html#Educacion"> Education </a>
+            </li>
+            <li>
+              <a class="nav-link navegacion-lateral-text" href="home_en.html#Experiencia"> Experience </a>
+            </li>
+            <li>
+              <a class="nav-link navegacion-lateral-text" style="cursor: pointer"> Portfolio </a>
+            </li>
+          </ul>
+        </div>
+        <div class="d-flex flex-column mt-auto pb-md-5 text-center">
+          <div class="d-flex col-sm-12 pb-2 pb-md-4">
+            <a class="col-6 text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://github.com/miguelNPB" target="_blank">
+              <img src="assets/github_link.svg" class="img-fluid h-100">
+            </a>
+            <a class="col-6 text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://mail.google.com/mail/?view=cm&to=miguelperezballester0@gmail.com" target="_blank">
+              <img src="assets/linkedin_link.png" class="img-fluid h-100">
+            </a>
+          </div>
+          <div class="d-flex col-sm-12 pb-2 pb-md-4">
+            <a class="col-6 text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://miguelpb.itch.io/" target="_blank">
+                <img src="assets/itch.io_logo.png" class="img-fluid h-100">
+              </a>
+            <a class="d-flex flex-row col-6 justify-content-center text-decoration-none text-black navegacion-lateral-footer-element-container" href="https://mail.google.com/mail/?view=cm&to=miguelperezballester0@gmail.com" target="_blank">
+              <img src="assets/gmail_icon.png" class="img-fluid h-100">
+              <!-- <p class="navegacion-lateral-footer-element-text px-4 mx-3 mx-md-0 px-md-1">miguelnorbertoperezballester@gmail.com</p> -->
+            </a>
+          </div>
+      </div>
+    </div>
+
+
+    <div class="col-12 offset-md-2 d-flex flex-column">
+
+      <h1 class="text-center col-10 p-3 portfolio-title-text">Proyects</h1>
+      <!-- Contenedor de proyectos -->
+      <div class="d-flex flex-wrap gap-2 col-10 justify-content-center" id="proyectContainer">
+        <div class="col-2">
+            <img src="assets/cronopunk.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/xrefXEuTC7M?si=3OdHKDD55l75v2jc" data-title-text="Cronopunk" 
+            data-footer-text="Second place for the best game for the Game Jam ComJamOn2025 of the Complutense University of Madrid. Platformer game where your previous attempts on the level help you to reach new places and progress in it. Made in Unity" data-link="https://rayian.itch.io/cronopunk">
+        </div>
+        <div class="col-2">
+            <img src="assets/vodkaengine.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="" data-title-text="Vodka Game Engine - Proyects 3" 
+            data-footer-text="Full game engine with two games made in it, also uses Unity as a editor for making and exporting scenes to the engine. Works with OGRE3D, SDL2, Physx, FMOD, OgreOverlay and LUA. Made for the subject Proyects 3." data-link="https://github.com/Proyecto3-FDI-UCM/2425-Grupo03-VodkaEngine">
+        </div>
+        <div class="col-2">
+            <img src="assets/mailToAtlantis.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/nrCLXbGSWT4?si=5MRvacuhAeMlSUKX" data-title-text="Mail To Atlantis - Proyects 2" 
+            data-footer-text="Narrative and gestion game about a border control of packages entering the city of Atlantis inspired in Papers Please. Made for the subject of Proyects 2 in C++, SDL2 and FMOD." data-link="https://rayian.itch.io/mail-to-atlantis">
+        </div>
+        <div class="col-2">
+            <img src="assets/HeartBeat.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/xJJZEVgAJT4?si=LveQeB6KCWaInLHX" data-title-text="Heartbeat - Proyects 1" 
+            data-footer-text="Horror and stealth game about beating levels without getting caught by the monsters that live in them while you keep your heart beating. Made for the subject Proyects 1 in Unity." data-link="https://rayian.itch.io/heartbeat">
+        </div>
+        <div class="col-2">
+            <img src="assets/Taberna.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/v8e0gDZ5lLA?si=iq4kk4LPf-OyghZb" data-title-text="La Taberna VR" 
+            data-footer-text="Short horror VR game about cleaning a creepy tabern. Made for the subject of Virtual Reality Games in Unity with XR toolkit." data-link="https://github.com/miguelNPB/ProyectoFinalVR">
+        </div>
+        <div class="col-2">
+            <img src="assets/sims.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/aXhE19Enz98?si=xTdWGi4ZUrs8pNCU" data-title-text="Sim-S" 
+            data-footer-text="Final proyect for the subject of Artificial Inteligence in Videogames. Life simulation Sims style with behavior trees and SmartObjects in Unity." data-link="https://github.com/miguelNPB/IAV25-PerezBallester">
+        </div>
+        <div class="col-2">
+            <img src="assets/wheelofmissfortune.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/umDWfx6P3zc?si=q2hWJCvZsWmuYNNv" data-title-text="Wheel of Missfortune" 
+            data-footer-text="Game made for the Horror Themed Game Jam #13 in itch.io. Made solo in two weeks in Unity." data-link="https://miguelpb.itch.io/wheel-of-missfortune">
+        </div>
+        
+        
+        <div class="col-2">
+            <img src="assets/40crisis.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/DC9bgVF_y6A?si=lQHHs8KOEf8D-rZ5" data-title-text="40 Crisis" 
+            data-footer-text="Final proyect for the subject of Navigator Videogames. Shoot-em-up game with enemy waves made in Phaser3 and javascript." data-link="https://github.com/Adelpozo04/Grupo03-40Crisis">
+        </div>
+        
+        
+        <div class="col-2">
+            <img src="assets/simFisica.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/O1-pLCkOIus?si=0p0MRvcYzUKk1oPc" data-title-text="Proyecto Final Simulación Física Physx y OpenGL" 
+            data-footer-text="Game about a physics simulation in Physx rendered with OpenGL with rigidbodies and particle systems." data-link="https://github.com/miguelNPB/SimulacionFisica">
+        </div>
+        
+        <div class="col-2">
+            <img src="assets/DiseñoNiveles.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/iddTv1ISy2o?si=tIFVl07vhEm3OP8n" data-title-text="Final Proyect - Videogame Design subject" 
+            data-footer-text="Final proyect of the subject of Game Design in first year of university, about designing a first person shooter level with a story. Made in Unity" data-link="https://www.youtube.com/embed/iddTv1ISy2o?si=tIFVl07vhEm3OP8n">
+        </div>
+
+      </div>
+
+
+    </div>
+    
+    <!-- Modal -->
+    <div class="modal fade" id="modalVideo" tabindex="-1" aria-labelledby="modal-title-text" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="modal-title-text"></h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+                </div>
+                <div class="modal-body bg-black ratio ratio-16x9">
+                  <!-- Video -->
+                  <iframe id="modal-src-video" width="100%" height="100%" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>                    
+                  </div>
+                  <div class="modal-footer d-flex justify-content-between">
+                    <p class="mt-3 col-10" id="modal-footer-text"></p>
+                    <a type="button" class="btn btn-danger" id="modal-src-link" href="" target="_blank">See more</a>
+                  </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+    
+<!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Custom JS -->
+ <script src="script_portfolio.js"></script>
+</body>
+</html>

@@ -1,8 +1,4 @@
 /* fuentes */
-.toxigenesis {
-    font-family: 'Toxigenesis';
-}
-
 .dm-serif-text-regular {
     font-family: "DM Serif Text", serif;
     font-weight: 400;
@@ -172,7 +168,6 @@ td{
   font-size:1vw
 }
 
-
 /* Cambio de valores para moviles/tablets */
 @media only screen and (max-width: 767px) {
   .navegacion-lateral-container{
@@ -211,6 +206,7 @@ td{
     font-size:3vw
   }
 }
+
 .navegacion-lateral-container{
   height: 100vh;
   z-index: 99;
@@ -338,7 +334,7 @@ td{
   }
 }
 
-.portfolio-image{
+.portfolio-home-image{
   position: absolute;
   left:100%;
   animation-name: loopRight;
@@ -372,3 +368,11 @@ td{
   font-weight: 200;
   font-size: 3vw;
 }
+
+.portfolio-title-text{
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 200;
+    font-size: 4em;
+}
+
+/*  Portfolio.html */

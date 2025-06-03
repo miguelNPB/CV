@@ -4,7 +4,9 @@ const contentDiv = document.getElementById('contentDiv');
 const containerNav = document.getElementById('navLinksContainer')
 const navLinks = containerNav.getElementsByTagName('a')
 
+if (window.innerWidth < 767) {
 contentDiv.classList.toggle('hidden');
+}
 
 hamburguerButton.addEventListener('click', () => {
     contentDiv.classList.toggle('hidden');
