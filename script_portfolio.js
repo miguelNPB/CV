@@ -2,8 +2,12 @@ const hamburguerButton = document.getElementById('hamburguerButton');
 const contentDiv = document.getElementById('contentDiv');
 
 if (window.innerWidth < 767) {
-    contentDiv.classList.toggle('hidden');
+contentDiv.classList.toggle('hidden');
 }
+
+hamburguerButton.addEventListener('click', () => {
+    contentDiv.classList.toggle('hidden');
+});
 
 const containerProyectos = document.getElementById('proyectContainer');
 const proyectosItems = containerProyectos.getElementsByTagName('div');
