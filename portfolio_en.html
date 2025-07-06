@@ -81,70 +81,73 @@
     <div class="col-12 offset-md-2 d-flex flex-column">
 
       <h1 class="text-center col-12 col-md-10 p-3 portfolio-title-text">Proyects</h1>
+
+      <div class="col-12 col-md-10 text-center p-3">
+        <button class="portfolio-button-text p-2 portfolio-button-selected" id="portfolio-toggle-todos">All</button>
+        <button class="portfolio-button-text p-2" id="portfolio-toggle-programacion">Programming</button>
+        <button class="portfolio-button-text p-2" id="portfolio-toggle-artistatecnico">Technical artist</button>
+        <button class="portfolio-button-text p-2" id="portfolio-toggle-otros">Others</button>
+      </div>
+
       <!-- Contenedor de proyectos -->
-      <div class="d-flex flex-wrap gap-2 col-12 col-md-10 justify-content-center" id="proyectContainer">
-        <div class="col-5 col-md-2">
-            <img src="assets/cronopunk.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+      <div class="d-flex flex-wrap p-3 p-md-0 gap-3 gap-md-2 col-12 col-md-10 justify-content-center" id="proyectContainer">
+        <div class="col-4 col-md-2">
+            <img src="assets/cronopunk.png" class="img-fluid" proyect-type="programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/xrefXEuTC7M?si=3OdHKDD55l75v2jc" data-title-text="Cronopunk" 
             data-footer-text="Second place for the best game for the Game Jam ComJamOn2025 of the Complutense University of Madrid. Platformer game where your previous attempts on the level help you to reach new places and progress in it. Made in Unity" data-link="https://rayian.itch.io/cronopunk">
         </div>
-        <div class="col-5 col-md-2">
-            <img src="assets/cascada.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/cascada.png" class="img-fluid" data-bs-toggle="modal" proyect-type="artistatecnico" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/PvVKoPQ2D-M?si=tz16KesAAOGTrBbO" data-title-text="Shaders waterfall" 
             data-footer-text="Scene in Unity for showcasing a wind shader and a water shader. Made two versions, one in ShaderGraph, and another in HLSL." data-link="https://github.com/miguelNPB/CrystalWaterfallScene">
         </div>
-        <div class="col-5 col-md-2">
-            <img src="assets/shaders.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/shaders.png" class="img-fluid" data-bs-toggle="modal" proyect-type="artistatecnico" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/qQ9KCutDphE?si=fM6-d_PtiD5cXTH8" data-title-text="Shaders showcase" 
             data-footer-text="Showcase of some shaders made for learning ShaderGraph and HLSL in Unity. Wind and bottled water simulations, dissolve effects, lighting and shading with toon shading, and stencil effects. Worked with the Universal Render Pipeline." data-link="https://www.youtube.com/embed/qQ9KCutDphE?si=fM6-d_PtiD5cXTH8">
         </div>
-        <div class="col-5 col-md-2">
-            <img src="assets/vodkaengine.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/vodkaengine.png" class="img-fluid" data-bs-toggle="modal" proyect-type="programacion" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="" data-title-text="Vodka Game Engine - Proyects 3" 
             data-footer-text="Full game engine with two games made in it, also uses Unity as a editor for making and exporting scenes to the engine. Works with OGRE3D, SDL2, Physx, FMOD, OgreOverlay and LUA. Made for the subject Proyects 3." data-link="https://github.com/Proyecto3-FDI-UCM/2425-Grupo03-VodkaEngine">
         </div>
-        <div class="col-5 col-md-2">
-            <img src="assets/mailToAtlantis.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/mailToAtlantis.png" class="img-fluid" data-bs-toggle="modal" proyect-type="programacion" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/nrCLXbGSWT4?si=5MRvacuhAeMlSUKX" data-title-text="Mail To Atlantis - Proyects 2" 
             data-footer-text="Narrative and gestion game about a border control of packages entering the city of Atlantis inspired in Papers Please. Made for the subject of Proyects 2 in C++, SDL2 and FMOD." data-link="https://rayian.itch.io/mail-to-atlantis">
         </div>
-        <div class="col-5 col-md-2">
-            <img src="assets/HeartBeat.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/HeartBeat.png" class="img-fluid" data-bs-toggle="modal" proyect-type="programacion" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/xJJZEVgAJT4?si=LveQeB6KCWaInLHX" data-title-text="Heartbeat - Proyects 1" 
             data-footer-text="Horror and stealth game about beating levels without getting caught by the monsters that live in them while you keep your heart beating. Made for the subject Proyects 1 in Unity." data-link="https://rayian.itch.io/heartbeat">
         </div>
-        <div class="col-5 col-md-2">
-            <img src="assets/Taberna.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/Taberna.png" class="img-fluid" data-bs-toggle="modal" proyect-type="otros" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/v8e0gDZ5lLA?si=iq4kk4LPf-OyghZb" data-title-text="La Taberna VR" 
             data-footer-text="Short horror VR game about cleaning a creepy tabern. Made for the subject of Virtual Reality Games in Unity with XR toolkit." data-link="https://github.com/miguelNPB/ProyectoFinalVR">
         </div>
-        <div class="col-5 col-md-2">
-            <img src="assets/sims.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/sims.png" class="img-fluid" data-bs-toggle="modal" proyect-type="programacion" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/aXhE19Enz98?si=xTdWGi4ZUrs8pNCU" data-title-text="Sim-S" 
             data-footer-text="Final proyect for the subject of Artificial Inteligence in Videogames. Life simulation Sims style with behavior trees and SmartObjects in Unity." data-link="https://github.com/miguelNPB/IAV25-PerezBallester">
         </div>
-        <div class="col-5 col-md-2">
-            <img src="assets/wheelofmissfortune.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/wheelofmissfortune.png" class="img-fluid" data-bs-toggle="modal" proyect-type="programacion" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/umDWfx6P3zc?si=q2hWJCvZsWmuYNNv" data-title-text="Wheel of Missfortune" 
             data-footer-text="Game made for the Horror Themed Game Jam #13 in itch.io. Made solo in two weeks in Unity." data-link="https://miguelpb.itch.io/wheel-of-missfortune">
         </div>
-        
-        
-        <div class="col-5 col-md-2">
-            <img src="assets/40crisis.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/40crisis.png" class="img-fluid" data-bs-toggle="modal" proyect-type="programacion" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/DC9bgVF_y6A?si=lQHHs8KOEf8D-rZ5" data-title-text="40 Crisis" 
             data-footer-text="Final proyect for the subject of Navigator Videogames. Shoot-em-up game with enemy waves made in Phaser3 and javascript." data-link="https://github.com/Adelpozo04/Grupo03-40Crisis">
         </div>
-        
-        
-        <div class="col-5 col-md-2">
-            <img src="assets/simFisica.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/simFisica.png" class="img-fluid" data-bs-toggle="modal" proyect-type="programacion" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/O1-pLCkOIus?si=0p0MRvcYzUKk1oPc" data-title-text="Proyecto Final Simulación Física Physx y OpenGL" 
             data-footer-text="Game about a physics simulation in Physx rendered with OpenGL with rigidbodies and particle systems." data-link="https://github.com/miguelNPB/SimulacionFisica">
         </div>
-        
-        <div class="col-5 col-md-2">
-            <img src="assets/DiseñoNiveles.png" class="img-fluid" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+        <div class="col-4 col-md-2">
+            <img src="assets/DiseñoNiveles.png" class="img-fluid" data-bs-toggle="modal" proyect-type="otros" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/iddTv1ISy2o?si=tIFVl07vhEm3OP8n" data-title-text="Final Proyect - Videogame Design subject" 
             data-footer-text="Final proyect of the subject of Game Design in first year of university, about designing a first person shooter level with a story. Made in Unity" data-link="https://www.youtube.com/embed/iddTv1ISy2o?si=tIFVl07vhEm3OP8n">
         </div>

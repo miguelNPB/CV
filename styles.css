@@ -197,7 +197,7 @@ td{
     font-size: 4.5vw !important;
   }
   .section-intro-text{
-    font-size: 9vw !important;
+    font-size: 12vw !important;
   }
   th{
     font-size:3vw;
@@ -205,6 +205,22 @@ td{
   td{
     font-size:3vw
   }
+  .imagen-logos-texto{
+    font-size:5vw !important;
+  }
+  .imagen-logos-habilidades{
+    width:30vw !important;
+  }
+  .about-me-text{
+    font-size: 4vw !important;
+  }
+  .portfolio-button-text{
+    font-size: 6vw !important;
+  }
+}
+
+.about-me-text{
+  font-size: 1vw;
 }
 
 .navegacion-lateral-container{
@@ -372,7 +388,23 @@ td{
 .portfolio-title-text{
     font-family: "Roboto Flex", sans-serif;
     font-weight: 200;
-    font-size: 4em;
+    font-size: 5em;
 }
 
+.portfolio-button-text{
+    all: unset;
+    font-family: "Roboto Flex", sans-serif;
+    font-weight: 200;
+    font-size: 2vw;
+    box-shadow: none;
+    background: none;
+}
+
+.portfolio-button-selected{
+  color: rgb(97, 0, 0);
+}
+
+.portfolio-icon-hidden{
+  display: none;
+}
 /*  Portfolio.html */
