@@ -407,4 +407,8 @@ td{
 .portfolio-icon-hidden{
   display: none;
 }
+
+.portfolio-link-artstation{
+  color: blue
+}
 /*  Portfolio.html */
