@@ -209,7 +209,7 @@ td{
     font-size:5vw !important;
   }
   .imagen-logos-habilidades{
-    width:30vw !important;
+    width:20vw !important;
   }
   .about-me-text{
     font-size: 4vw !important;
@@ -401,7 +401,7 @@ td{
 }
 
 .portfolio-button-selected{
-  color: rgb(97, 0, 0);
+  color: rgb(174, 0, 0);
 }
 
 .portfolio-icon-hidden{
@@ -411,4 +411,5 @@ td{
 .portfolio-link-artstation{
   color: blue
 }
+
 /*  Portfolio.html */

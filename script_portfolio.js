@@ -36,6 +36,7 @@ Array.from(proyectosItems).forEach((div) => {
 const buttonPortfolioTodos = document.getElementById("portfolio-toggle-todos");
 const buttonPortfolioProgramacion = document.getElementById("portfolio-toggle-programacion");
 const buttonPortfolioArtistatecnico = document.getElementById("portfolio-toggle-artistatecnico");
+const buttonPortfolioJuegos = document.getElementById("portfolio-toggle-juegos");
 const buttonPortfolioOtros = document.getElementById("portfolio-toggle-otros");
 
 function togglePortfolio(type)
@@ -43,59 +44,39 @@ function togglePortfolio(type)
     buttonPortfolioTodos.classList.remove('portfolio-button-selected');
     buttonPortfolioProgramacion.classList.remove('portfolio-button-selected');
     buttonPortfolioArtistatecnico.classList.remove('portfolio-button-selected');
+    buttonPortfolioJuegos.classList.remove('portfolio-button-selected');
     buttonPortfolioOtros.classList.remove('portfolio-button-selected');
 
+
+    Array.from(proyectosItems).forEach((div) => {
+                        const img = div.querySelector('img')
+                        let imgType = img.getAttribute("proyect-type");
+
+                        if (!imgType.includes(type) && type != "todos"){
+                            div.style.display = 'none';
+                        } else{
+                            div.style.display = 'flex';
+                        }
+                    });
+    
     switch (type)
     {
-        case "Todos":
-            buttonPortfolioTodos.classList.add('portfolio-button-selected');
-            Array.from(proyectosItems).forEach((div) => {
-                div.style.display = 'flex';
-            });
-            break;
-        case "Programacion":
+        case "programacion":
             buttonPortfolioProgramacion.classList.add('portfolio-button-selected');
-            Array.from(proyectosItems).forEach((div) => {
-                const img = div.querySelector('img')
-                let type = img.getAttribute("proyect-type");
-
-                if (!type.includes("programacion")){
-                    div.style.display = 'none';
-                } else{
-                    div.style.display = 'flex';
-                }
-            });
             break;
-        case "ArtistaTecnico":
+        case "artistatecnico":
             buttonPortfolioArtistatecnico.classList.add('portfolio-button-selected');
-            Array.from(proyectosItems).forEach((div) => {
-                const img = div.querySelector('img')
-                let type = img.getAttribute("proyect-type");
-
-                if (!type.includes("artistatecnico")){
-                    div.style.display = 'none';
-                } else{
-                    div.style.display = 'flex';
-                }
-            });
             break;
-        case "Otros":
+        case "juegos":
+            break;
+        case "otros":
             buttonPortfolioOtros.classList.add('portfolio-button-selected');
-            Array.from(proyectosItems).forEach((div) => {
-                const img = div.querySelector('img')
-                let type = img.getAttribute("proyect-type");
-
-                if (!type.includes("otros")){
-                    div.style.display = 'none';
-                } else{
-                    div.style.display = 'flex';
-                }
-            });
             break;
     }
 }
 
-buttonPortfolioTodos.addEventListener('click', () => togglePortfolio("Todos"));
-buttonPortfolioProgramacion.addEventListener('click', () => togglePortfolio("Programacion"));
-buttonPortfolioArtistatecnico.addEventListener('click', () => togglePortfolio("ArtistaTecnico"));
-buttonPortfolioOtros.addEventListener('click', () => togglePortfolio("Otros"));
+buttonPortfolioTodos.addEventListener('click', () => togglePortfolio("todos"));
+buttonPortfolioProgramacion.addEventListener('click', () => togglePortfolio("programacion"));
+buttonPortfolioArtistatecnico.addEventListener('click', () => togglePortfolio("artistatecnico"));
+buttonPortfolioJuegos.addEventListener('click', () => togglePortfolio("juegos"));
+buttonPortfolioOtros.addEventListener('click', () => togglePortfolio("otros"));

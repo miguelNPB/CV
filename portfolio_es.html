@@ -88,10 +88,69 @@
 
       <h1 class="text-center col-12 col-md-10 p-3 portfolio-title-text">Proyectos</h1>
 
+
+      <!-- Highlights -->
+      <div>
+       <div class="d-flex col-10 row-gap-5 column-gap-5 justify-content-center flex-wrap">
+                    <div class="col-8 position-relative"> 
+            <a href="https://miguelnpb.artstation.com" >
+              <video src="assets/video/silenthillH264.mp4" class="w-100" preload="auto" muted autoplay loop></video>
+              <div class="col-4 position-absolute d-flex gap-1" style="bottom: 0.5rem">
+                <img src="assets/unity_logo.png" class="w-25 m-1">
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-5 position-relative"> 
+            <video src="assets/video/shadowball.mp4" class="w-100" preload="auto" muted autoplay loop></video>
+            <a href="https://miguelnpb.artstation.com" >
+
+              <div class="col-4 position-absolute d-flex gap-1" style="bottom: 0.5rem">
+                <img src="assets/unity_logo.png" class="w-25 m-1">
+              </div>
+            </a>
+          </div>
+          
+          <div class="col-5 position-relative"> 
+            <video src="assets/video/BT.mp4" class="w-100" preload="auto" muted autoplay loop></video>
+            <a href="https://miguelnpb.artstation.com" >
+              <div class="col-4 position-absolute d-flex gap-1" style="bottom: 0.5rem">
+                <img src="assets/unreal_logo.png" class="w-25 m-1">
+              </div>
+            </a>
+            
+          </div>
+
+          <div class="col-8 position-relative"> 
+            <a href="https://miguelnpb.artstation.com" >
+              <video src="assets/video/cascada.mp4" class="w-100" preload="auto" muted autoplay loop></video>
+              <div class="col-4 position-absolute d-flex gap-1" style="bottom: 0.5rem">
+                <img src="assets/unity_logo.png" class="w-25 m-1">
+              </div>
+            </a>
+          </div>
+
+          <!--
+          <div class="col-5 position-relative"> 
+            <video src="assets/video/IceAttack.mp4" class="w-100" preload="auto" muted autoplay loop></video>
+            <div class="col-4 position-absolute d-flex gap-1" style="bottom: 0.5rem">
+              <img src="assets/unity_logo.png" class="w-25 m-1">
+            </div>
+          </div>
+          -->
+
+        </div>
+      </div>
+      
+
+      <hr>
+
+      <!-- Selector de proyectos-->
       <div class="col-12 col-md-10 text-center p-3">
         <button class="portfolio-button-text p-2 portfolio-button-selected" id="portfolio-toggle-todos">Todos</button>
-        <button class="portfolio-button-text p-2" id="portfolio-toggle-programacion">Programación</button>
         <button class="portfolio-button-text p-2" id="portfolio-toggle-artistatecnico">Artista técnico</button>
+        <button class="portfolio-button-text p-2" id="portfolio-toggle-programacion">Programación</button>
+        <button class="portfolio-button-text p-2" id="portfolio-toggle-juegos">Juegos</button>
         <button class="portfolio-button-text p-2" id="portfolio-toggle-otros">Otros</button>
         <a class="portfolio-button-text portfolio-link-artstation p-5" style="cursor: pointer" href="https://miguelnpb.artstation.com/" >Artstation</a>
         
@@ -100,7 +159,7 @@
       <!-- Contenedor de proyectos -->
       <div class="d-flex flex-wrap p-3 p-md-0 gap-3 gap-md-2 col-12 col-md-10 justify-content-center" id="proyectContainer">
         <div class="col-4 col-md-2">
-            <img src="assets/cronopunk.png" class="img-fluid" proyect-type="programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            <img src="assets/cronopunk.png" class="img-fluid" proyect-type="juegos programacion artistatecnico" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/xrefXEuTC7M?si=3OdHKDD55l75v2jc" data-title-text="Cronopunk" 
             data-footer-text="Juego ganador del segundo puesto a mejor juego de la Game Jam de la UCM ComJamOn2025. Juego plataformas donde deberás ayudarte de tus previos intentos que se manifiestan como 'sombras' para poder avanzar. Creado en Unity. A destacar la programación del sistema de iteraciones previas y la IA de los enemigos." data-link="https://rayian.itch.io/cronopunk">
         </div>
@@ -115,17 +174,22 @@
             data-footer-text="Varios shaders creados en Unity como aprendizaje, utilizo shadergraph y con variantes en HLSL. Hay varios sobre el uso de stencil, shaders de viento y agua, simulación de liquidos dentro de botellas, efectos dissolve, y sistemas de iluminación como toon shading. Hecho sobre el Universal Render Pipeline." data-link="https://miguelnpb.artstation.com/">
         </div>
         <div class="col-4 col-md-2">
+            <img src="assets/LOKEXPERIENCE_THUMBNAIL.png" class="img-fluid" proyect-type="programacion artistatecnico" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/crT6QMpZqUY?si=CWuuQnwpXJc1FJuI" data-title-text="Practicas lokeXperience" 
+            data-footer-text="Prácticas en la empresa lokExperience, trabajo como programador y generalista 3D. Desarrollo de una demo para un juego de interactuar con dinosaurios en realidad mixta usando las gafas Meta Quest 3. En el video se ve las mecánicas más destacables de las prácticas." data-link="https://rayian.itch.io/cronopunk">
+        </div>
+        <div class="col-4 col-md-2">
             <img src="assets/vodkaengine.png" class="img-fluid" proyect-type="programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="" data-title-text="Vodka Game Engine - Proyectos 3" 
             data-footer-text="Motor de Videojuegos creado con dos juegos para él, tiene implementado un plugin de Unity para usarlo de editor y poder crear y exportar escenas al motor. Funciona con OGRE3D, SDL2, Physx, FMOD, OgreOverlay y LUA. Hecho para la asignatura de Proyectos 3." data-link="https://github.com/Proyecto3-FDI-UCM/2425-Grupo03-VodkaEngine">
         </div>
         <div class="col-4 col-md-2">
-            <img src="assets/mailToAtlantis.png" class="img-fluid" proyect-type="programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            <img src="assets/mailToAtlantis.png" class="img-fluid" proyect-type="juegos programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/nrCLXbGSWT4?si=5MRvacuhAeMlSUKX" data-title-text="Mail To Atlantis - Proyectos 2" 
             data-footer-text="Juego narrativo y de gestión sobre admitir paquetes al estilo Papers Please. Creado para la asignatura de Proyectos 2 con C++, SDL2 y FMOD." data-link="https://rayian.itch.io/mail-to-atlantis">
         </div>
         <div class="col-4 col-md-2">
-            <img src="assets/Taberna.png" class="img-fluid" proyect-type="otros" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            <img src="assets/Taberna.png" class="img-fluid" proyect-type="juegos otros" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/v8e0gDZ5lLA?si=iq4kk4LPf-OyghZb" data-title-text="La Taberna VR" 
             data-footer-text="Juego VR corto de miedo sobre limpiar tu taberna. Creado para la asignatura de realidad virtual en Unity con el XR Toolkit." data-link="https://github.com/miguelNPB/ProyectoFinalVR">
         </div>
@@ -139,23 +203,8 @@
             data-video="https://www.youtube.com/embed/FuGVa-GouYQ?si=4utwQJxJaL9PNfa4" data-title-text="Blender python autrrigger" 
             data-footer-text="Proyecto para aprendizaje sobre creación de herramientas con python en blender. Autorriger simple con IK de manos y piernas, que permite retargetting de animaciones de Mixamo con Rokoko." data-link="https://github.com/miguelNPB/blender-python-autorriger">
         </div>
-        <div class="col-4 col-md-2">
-            <img src="assets/omensmokethumbnail_portfolio.png" class="img-fluid" proyect-type="artistatecnico" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
-            data-video="https://www.youtube.com/embed/mU8yEeaIW4E?si=fxmtejRcTWiW0XQN" data-title-text="Valorant style smoke" 
-            data-footer-text="Efecto de humo estilo valorant. Hecho en Unity con VFX Graph y ShaderGraph." data-link="https://miguelnpb.artstation.com/">
-        </div>
-        <div class="col-4 col-md-2">
-            <img src="assets/bt_thumbnail.png" class="img-fluid" proyect-type="artistatecnico" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
-            data-video="https://www.youtube.com/embed/M3vPOIkie3I?si=qqFTl7jyYoWIN2Bo" data-title-text="Efecto BT en Death Stranding" 
-            data-footer-text="Efecto de los BT de Death Stranding, hecho en Unreal Engine 5." data-link="https://miguelnpb.artstation.com/">
-        </div>
-        <div class="col-4 col-md-2">
-            <img src="assets/ICEATTACKPORTFOLIO.png" class="img-fluid" proyect-type="artistatecnico" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
-            data-video="https://www.youtube.com/embed/uItmy5MB-DQ?si=b9eH-P0rRzIUwu-d" data-title-text="Ataque de hielo Unreal" 
-            data-footer-text="Efecto de ataque de hielo, hecho en Unreal Engine 5." data-link="https://miguelnpb.artstation.com/">
-        </div>
           <div class="col-4 col-md-2">
-            <img src="assets/HeartBeat.png" class="img-fluid" proyect-type="programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            <img src="assets/HeartBeat.png" class="img-fluid" proyect-type="juegos programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/xJJZEVgAJT4?si=LveQeB6KCWaInLHX" data-title-text="Heartbeat - Proyectos 1" 
             data-footer-text="Juego de miedo y sigilo sobre superar niveles sin que te pillen los enemigos mientras mantienes tu corazón latiendo. Creado para la asignatura de primero de Proyectos 1 con Unity." data-link="https://rayian.itch.io/heartbeat">
         </div>
@@ -165,7 +214,7 @@
             data-footer-text="Proyecto para aprendizaje de generación de mapas y niveles con el algoritmo wave function collapse." data-link="https://github.com/miguelNPB/WaveFunctionCollapse">
         </div>
         <div class="col-4 col-md-2">
-            <img src="assets/wheelofmissfortune.png" class="img-fluid" proyect-type="programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            <img src="assets/wheelofmissfortune.png" class="img-fluid" proyect-type="juegos programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/umDWfx6P3zc?si=q2hWJCvZsWmuYNNv" data-title-text="Wheel of Missfortune" 
             data-footer-text="Juego para la Horror Themed Game Jam #13 de itch.io, creado solo por mí durante dos semanas en Unity. Trata sobre un laberinto con puzzles mientras te persigue una entidad, la cual cambia su comportamiento y agresividad cada vez que giras la ruleta dando efectos distintos." data-link="https://miguelpb.itch.io/wheel-of-missfortune">
         </div>
@@ -175,7 +224,7 @@
             data-footer-text="Portfolio de ejercicios de blender hechos para la asignatura de modelaje y la asignatura de animación." data-link="">
         </div>
         <div class="col-4 col-md-2">
-            <img src="assets/40crisis.png" class="img-fluid" proyect-type="programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            <img src="assets/40crisis.png" class="img-fluid" proyect-type="juegos programacion" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/DC9bgVF_y6A?si=lQHHs8KOEf8D-rZ5" data-title-text="40 Crisis" 
             data-footer-text="Proyecto Final para la asignatura de juegos en navegador. Juego shoot em up por oleadas creado con Phaser3 con Javascript, donde deberás afrontar distintos tipos de enemigos y desbloqueas armas según vayas usandolas." data-link="https://github.com/Adelpozo04/Grupo03-40Crisis">
         </div>
@@ -189,6 +238,23 @@
             <img src="assets/DiseñoNiveles.png" class="img-fluid" proyect-type="otros" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
             data-video="https://www.youtube.com/embed/iddTv1ISy2o?si=tIFVl07vhEm3OP8n" data-title-text="Proyeto Final - Asignatura de Diseño de Videojuegos" 
             data-footer-text="Proyeto Final de la asignatura de primero de Diseño de Videojuegos, sobre diseñar una historia y un nivel de un first person shooter en Unity." data-link="https://www.youtube.com/embed/iddTv1ISy2o?si=tIFVl07vhEm3OP8n">
+        </div>
+        
+        <div class="col-4 col-md-2">
+            <img src="assets/ICEATTACKPORTFOLIO.png" class="img-fluid" proyect-type="artistatecnico" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/uItmy5MB-DQ?si=b9eH-P0rRzIUwu-d" data-title-text="Ataque de hielo Unreal" 
+            data-footer-text="Efecto de ataque de hielo, hecho en Unreal Engine 5." data-link="https://miguelnpb.artstation.com/">
+        </div>
+        
+        <div class="col-4 col-md-2">
+            <img src="assets/omensmokethumbnail_portfolio.png" class="img-fluid" proyect-type="artistatecnico" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/mU8yEeaIW4E?si=fxmtejRcTWiW0XQN" data-title-text="Valorant style smoke" 
+            data-footer-text="Efecto de humo estilo valorant. Hecho en Unity con VFX Graph y ShaderGraph." data-link="https://miguelnpb.artstation.com/">
+        </div>
+        <div class="col-4 col-md-2">
+            <img src="assets/bt_thumbnail.png" class="img-fluid" proyect-type="artistatecnico" data-bs-toggle="modal" data-bs-target="#modalVideo" style="cursor: pointer"
+            data-video="https://www.youtube.com/embed/M3vPOIkie3I?si=qqFTl7jyYoWIN2Bo" data-title-text="Efecto BT en Death Stranding" 
+            data-footer-text="Efecto de los BT de Death Stranding, hecho en Unreal Engine 5." data-link="https://miguelnpb.artstation.com/">
         </div>
       </div>
         -->
