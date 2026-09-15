@@ -1,252 +1,123 @@
-/* fuentes */
-.dm-serif-text-regular {
-    font-family: "DM Serif Text", serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-.dm-serif-text-regular-italic {
-    font-family: "DM Serif Text", serif;
-    font-weight: 400;
-    font-style: italic;
-    }
+/* =============================================================== */
+/* FUENTES                                                          */
+/* =============================================================== */
 
-.poppins-thin {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: normal;
-  }
-  
-  .poppins-extralight {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-  }
-  
-  .poppins-light {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: normal;
-  }
-  
-  .poppins-regular {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .poppins-medium {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-  }
-  
-  .poppins-semibold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: normal;
-  }
-  
-  .poppins-bold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: normal;
-  }
-  
-  .poppins-extrabold {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: normal;
-  }
-  
-  .poppins-black {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: normal;
-  }
-  
-  .poppins-thin-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 100;
-    font-style: italic;
-  }
-  
-  .poppins-extralight-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 200;
-    font-style: italic;
-  }
-  
-  .poppins-light-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 300;
-    font-style: italic;
-  }
-  
-  .poppins-regular-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: italic;
-  }
-  
-  .poppins-medium-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 500;
-    font-style: italic;
-  }
-  
-  .poppins-semibold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 600;
-    font-style: italic;
-  }
-  
-  .poppins-bold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 700;
-    font-style: italic;
-  }
-  
-  .poppins-extrabold-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    font-style: italic;
-  }
-  
-  .poppins-black-italic {
-    font-family: "Poppins", sans-serif;
-    font-weight: 900;
-    font-style: italic;
-  }
-
-.roboto-flex-regular {
-    font-family: "Roboto Flex", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-.roboto-flex-light {
-font-family: "Roboto Flex", sans-serif;
-font-optical-sizing: auto;
-font-weight: 200;
-font-style: normal;
+@font-face {
+  font-family: 'Now';
+  src: url('assets/fonts/Now-Medium.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-.roboto-flex-bold {
-font-family: "Roboto Flex", sans-serif;
-font-optical-sizing: auto;
-font-weight: 600;
-font-style: bold;
-}
-  
-/* clases */ 
-
-body, html{
-    overflow-x:hidden;
-    margin: 0;
-    width: 100%; 
-    overflow-x: hidden; 
+@font-face {
+  font-family: 'Now-Light';
+  src: url('assets/fonts/Now-Light.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
 }
 
-hr{
-    margin-left:2vw;
-    margin-right:2vw;
-    margin-top:5vh;
-    border-radius:3px;
-    border: 5px solid lightgray; 
+
+/* =============================================================== */
+/* GLOBAL / RESET                                                   */
+/* =============================================================== */
+
+body, html {
+  overflow-x: hidden;
+  margin: 0;
+  width: 100%;
 }
 
-li::marker{
-    font-size: 35px;
+h1 {
+  color: rgb(87, 9, 9);
 }
 
-th{
-  font-size:1vw;
-}
-td{
-  font-size:1vw
+p, h2, h3, h4, h5, h6 {
+  color: rgb(87, 9, 9);
 }
 
-/* Cambio de valores para moviles/tablets */
+hr {
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 5vh;
+  border-radius: 3px;
+  border: 5px solid rgb(92, 116, 87);
+}
+
+li::marker {
+  font-size: 35px;
+}
+
+th { font-size: 1vw; }
+td { font-size: 1vw; }
+
+.section-intro-text {
+  font-family: "Now", serif;
+  font-size: 5vw;
+  font-weight: 100;
+  color: rgb(92, 116, 87);
+}
+
 @media only screen and (max-width: 767px) {
-  .navegacion-lateral-container{
-    width: 100vw;
-  }
-  .navegacion-lateral-footer-element-text{
-    font-size: 5vw !important;
-  }
-  .intro-text{
-    font-size: 13vw !important;
-    text-align: center;
-  }
-  .intro-text-footer{
-    font-size: 5vw !important;
-    text-align: center;
-  }
-  .container-foto-intro{
-    padding-left: 0vw !important;
-  }
-  p{
-    font-size:2.5vw;
-  }
-  .educacion-texto-year{
-    font-size: 5vw !important;
-  }
-  .educacion-texto-title{
-    font-size: 4.5vw !important;
-  }
-  .section-intro-text{
-    font-size: 12vw !important;
-  }
-  th{
-    font-size:3vw;
-  }
-  td{
-    font-size:3vw
-  }
-  .imagen-logos-texto{
-    font-size:5vw !important;
-  }
-  .imagen-logos-habilidades{
-    width:20vw !important;
-  }
-  .about-me-text{
-    font-size: 4vw !important;
-  }
-  .portfolio-button-text{
-    font-size: 6vw !important;
-  }
+  p  { font-size: 2.5vw; }
+  th { font-size: 3vw; }
+  td { font-size: 3vw; }
+  .section-intro-text { font-size: 12vw !important; }
 }
 
-.about-me-text{
-  font-size: 1vw;
-}
-
-.navegacion-lateral-container{
+.background-gradient {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   height: 100vh;
+  z-index: -1;
+  background-image: url('assets/background.png');
+  background-repeat: repeat, no-repeat;
+  background-size: 100 100, cover;
+  will-change: background-position;
+}
+
+
+/* =============================================================== */
+/* NAVEGACIÓN LATERAL                                                */
+/* =============================================================== */
+
+.navegacion-lateral-container {
+  height: 100vh;
+  background-image: url('assets/diagonalpattern.png');
+  background-repeat: repeat, no-repeat;
+  background-size: 25, cover;
   z-index: 99;
+  color: rgb(87, 9, 9);
+  will-change: background-position;
 }
 
-.navegacion-lateral-text{
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: 200;
-    font-size: 2em;
+.navegacion-lateral-text {
+  font-family: "Now", sans-serif;
+  font-weight: 200;
+  font-size: 2em;
 }
 
-.navegacion-lateral-footer-element-container{
-  height:2.5em;  
+.navegacion-lateral-footer-element-container {
+  height: 2.5em;
   align-items: center;
 }
 
-.navegacion-lateral-footer-element-text{
-    font-size: 1vw;
-    font-weight: 600;
+.navegacion-lateral-footer-element-text {
+  font-size: 1vw;
+  font-weight: 600;
+}
+
+.navegacion-lateral-logo-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0 6rem;
 }
 
 #contentDiv {
   opacity: 1;
-  max-height: 100%; /* Altura máxima para la animación */
+  max-height: 100%;
   overflow: hidden;
   transition: opacity 0.5s ease, max-height 0.5s ease;
 }
@@ -256,79 +127,210 @@ td{
   max-height: 0;
 }
 
-/* Estilo adicional para el botón */
 #toggleButton {
   margin-bottom: 20px;
 }
 
-.button-toggle-nav{
-  position:fixed;
+.button-toggle-nav {
+  position: fixed;
   background: none;
-  border:none;
+  border: none;
   z-index: 100;
-  width:15vw;
+  width: 15vw;
 }
 
-.container-foto-intro{
-    padding-left: 5vw;
+@media only screen and (max-width: 767px) {
+  .navegacion-lateral-footer-element-text { font-size: 5vw !important; }
+
+  .navegacion-lateral-text{
+    font-size: 1.8em;
+  }
 }
 
-.intro-text{
-    font-family: "DM Serif Text", serif;
-    font-size: 8vw;
+.fade-overlay {
+  position: fixed;
+  top: 0;
+  left: 16%;
+  height: 100%;
+  width: auto;
+  z-index: 10;
+  pointer-events: none;
 }
 
-.intro-text-footer{
-    font-family: "DM Serif Text", serif;
-    font-size: 4vh;
-    font-style: italic;
+
+/* =============================================================== */
+/* SECCIÓN SOBRE MÍ                                                  */
+/* =============================================================== */
+
+.container-foto-intro {
+  padding-left: 5vw;
 }
 
-.section-intro-text{
-    font-family: "DM Serif Text", serif;
-    font-size:5vw;
-    font-weight: 100;
+.intro-text {
+  font-family: "Now", serif;
+  font-size: 8vw;
+  color: rgb(92, 116, 87);
 }
 
-.container-logos-habilidades{
-    gap: 5%;
+.intro-text-footer {
+  font-family: "Now", serif;
+  font-size: 4vh;
+  font-style: italic;
+  color: rgb(87, 9, 9);
 }
 
-.imagen-logos-habilidades{
-    display:flex;
-    flex-direction: column;
-    align-items: center;
-    width: 10vw;
+.about-me-text {
+  font-size: 1.2vw;
 }
 
-.imagen-logos-texto{
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: 200;
-    font-style: normal;
-    padding-top: 10px;
+.tabla-datos-personales,
+.tabla-datos-personales th,
+.tabla-datos-personales td {
+  color: rgb(87, 9, 9);
+  background-color: transparent;
+  font-size: 1.1em;
+}
+
+@media only screen and (max-width: 767px) {
+  .container-foto-intro { padding-left: 0vw !important; }
+  .intro-text {
+    font-size: 13vw !important;
     text-align: center;
-}
-
-.lista-educacion{
-    display: flex;
-    flex-direction: row;
+  }
+  .intro-text-footer {
+    font-size: 5vw !important;
     text-align: center;
+  }
+  .about-me-text { font-size: 4vw !important; }
+  .tabla-datos-personales,
+  .tabla-datos-personales th,
+  .tabla-datos-personales td { font-size: 0.9em !important; }
 }
 
-.educacion-texto-year{
-    font-size: 2vw;
-    font-weight: 600;
-    font-family: "Roboto Flex", sans-serif;
+
+/* =============================================================== */
+/* SECCIÓN HABILIDADES                                               */
+/* =============================================================== */
+
+.habilidades-container { gap: 4vw; }
+.habilidades-columna   { padding: 0 2vw; }
+
+.habilidades-subtitulo {
+  font-family: "Now", sans-serif;
+  font-weight: 600;
+  font-size: 2vw;
+  margin-bottom: 0.5em;
 }
 
-.educacion-texto-title{
-    font-size: 2vw;
-    font-weight: 200;
-    font-family: "Roboto Flex", sans-serif;
+.habilidades-subtitulo-espaciado { margin-top: 1em; }
+
+.habilidades-lista {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 2em;
 }
 
-.portfolio-container{
-  display:flex;
+.habilidades-lista-doble {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.habilidades-lista-doble .habilidades-item { width: 15%; }
+
+.habilidades-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.5em;
+  text-decoration: none;
+  color: inherit;
+}
+
+.habilidades-icono {
+  width: 4vw;
+  height: 4vw;
+  object-fit: contain;
+  flex-shrink: 0;
+}
+
+.habilidades-texto {
+  font-family: "Now", sans-serif;
+  font-weight: 300;
+  font-size: 1vw;
+  margin: 0;
+  text-align: center;
+}
+
+.habilidades-texto-smaller {
+  font-family: "Now", sans-serif;
+  font-weight: 300;
+  font-size: 0.8vw;
+  margin: 0;
+  text-align: center;
+}
+
+@media only screen and (max-width: 767px) {
+  .habilidades-container { gap: 8vw; }
+  .habilidades-subtitulo {
+    font-size: 2em;
+    text-align: center;
+  }
+  .habilidades-icono {
+    width: 3em;
+    height: 3em;
+  }
+  .habilidades-texto         { font-size: 1.1em; }
+  .habilidades-texto-smaller { font-size: 0.8em; }
+  .habilidades-lista { justify-content: center; }
+  .habilidades-lista-doble .habilidades-item {
+    width: 25%;
+    justify-content: center;
+  }
+}
+
+
+/* =============================================================== */
+/* SECCIÓN EDUCACIÓN / EXPERIENCIA                                   */
+/* =============================================================== */
+
+.lista-educacion {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+
+.educacion-texto-year {
+  font-size: 1.35vw;
+  font-weight: 200;
+  font-family: "Now", sans-serif;
+}
+
+.educacion-texto-title {
+  font-size: 2vw;
+  font-weight: 600;
+  font-family: "Now", sans-serif;
+}
+
+.educacion-texto-extra {
+  font-size: 1em;
+  font-weight: 200;
+  font-family: "Now-Light", sans-serif;
+}
+
+@media only screen and (max-width: 767px) {
+  .educacion-texto-year  { font-size: 5vw !important; }
+  .educacion-texto-title { font-size: 4.5vw !important; }
+}
+
+
+/* =============================================================== */
+/* SECCIÓN PORTFOLIO                                                 */
+/* =============================================================== */
+
+.portfolio-container {
+  display: flex;
   height: 15vw;
   flex-direction: row;
   overflow: hidden;
@@ -342,74 +344,288 @@ td{
 }
 
 @keyframes loopRight {
-  from{
-    translate:0 0;
-  }
-  to {
-    translate: -100vw 0;
-  }
+  from { translate: 0 0; }
+  to   { translate: -100vw 0; }
 }
 
-.portfolio-home-image{
+.portfolio-home-image {
   position: absolute;
-  left:100%;
+  left: 100%;
   animation-name: loopRight;
   animation-duration: 20s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
-  width:15vw;
+  width: 15vw;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
 }
 
-.portfolio-1{
-  animation-delay: calc(20s / 6 * (6 - 1) * -1);
-}
-.portfolio-2{
-  animation-delay: calc(20s / 6 * (6 - 2) * -1);
-}
-.portfolio-3{
-  animation-delay: calc(20s / 6 * (6 - 3) * -1)
-}
-.portfolio-4{
-  animation-delay: calc(20s / 6 * (6 - 4) * -1);
-}
-.portfolio-5{
-  animation-delay: calc(20s / 6 * (6 - 5) * -1);
-}
-.portfolio-6{
-  animation-delay: calc(20s / 6 * (6 - 6) * -1);
-}
+.portfolio-1 { animation-delay: calc(20s / 6 * (6 - 1) * -1); }
+.portfolio-2 { animation-delay: calc(20s / 6 * (6 - 2) * -1); }
+.portfolio-3 { animation-delay: calc(20s / 6 * (6 - 3) * -1); }
+.portfolio-4 { animation-delay: calc(20s / 6 * (6 - 4) * -1); }
+.portfolio-5 { animation-delay: calc(20s / 6 * (6 - 5) * -1); }
+.portfolio-6 { animation-delay: calc(20s / 6 * (6 - 6) * -1); }
 
-.goto-portfolio-text{
-  font-family: "Roboto Flex", sans-serif;
+.goto-portfolio-text {
+  font-family: "Now-Light", sans-serif;
   font-weight: 200;
   font-size: 3vw;
+  color: rgb(0, 107, 23);
 }
 
-.portfolio-title-text{
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: 200;
-    font-size: 5em;
+.portfolio-video {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.25);
 }
 
-.portfolio-button-text{
-    all: unset;
-    font-family: "Roboto Flex", sans-serif;
-    font-weight: 200;
-    font-size: 2vw;
-    box-shadow: none;
-    background: none;
+.foto-perfil {
+  box-shadow: 0 16px 32px rgba(0, 0, 0, 0.25);
 }
 
-.portfolio-button-selected{
-  color: rgb(174, 0, 0);
+
+/* =============================================================== */
+/* PÁGINA PORTFOLIO                                                  */
+/* =============================================================== */
+
+.portfolio-title-text {
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 200;
+  font-size: 5em;
 }
 
-.portfolio-icon-hidden{
-  display: none;
+.portfolio-button-text {
+  all: unset;
+  font-family: "Roboto Flex", sans-serif;
+  font-weight: 200;
+  font-size: 2vw;
+  box-shadow: none;
+  background: none;
 }
 
-.portfolio-link-artstation{
-  color: blue
+.portfolio-button-selected { color: rgb(174, 0, 0); }
+.portfolio-icon-hidden     { display: none; }
+.portfolio-link-artstation { color: blue; }
+
+@media only screen and (max-width: 767px) {
+  .portfolio-button-text { font-size: 6vw !important; }
 }
 
-/*  Portfolio.html */
+
+/* =============================================================== */
+/* SECCIÓN JUEGOS                                                    */
+/* =============================================================== */
+
+.juegos-carrusel {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+  box-sizing: border-box;
+}
+
+.juegos-viewport {
+  flex: 1 1 auto;
+  min-width: 0;
+  overflow: hidden;
+  border-radius: 12px;
+}
+
+.juegos-track {
+  display: flex;
+  transition: transform 0.5s ease;
+}
+
+.juegos-slide {
+  flex: 0 0 100%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0.5rem;
+}
+
+.juegos-contenido {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2rem;
+  width: 100%;
+}
+
+.juegos-video {
+  position: relative;
+  flex: 0 0 55%;
+  max-width: 55%;
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  background: #000;
+}
+
+.juegos-video iframe,
+.juegos-video-play {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: 0;
+}
+
+.juegos-video-play {
+  padding: 0;
+  background: #000;
+  cursor: pointer;
+  overflow: hidden;
+  display: block;
+}
+
+.juegos-video-play img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.juegos-video-play:hover img {
+  transform: scale(1.05);
+  opacity: 0.85;
+}
+
+.juegos-texto {
+  flex: 1 1 auto;
+  min-width: 0;
+}
+
+.juegos-titulo {
+  font-family: "Now", serif;
+  font-size: 2.8vw;
+  font-weight: 600;
+  color: rgb(92, 116, 87);
+  margin: 0 0 0.5rem 0;
+  line-height: 1.1;
+}
+
+.juegos-descripcion {
+  font-family: "Now-Light", sans-serif;
+  font-size: 1.1vw;
+  font-weight: 200;
+  color: rgb(87, 9, 9);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.juegos-boton {
+  display: inline-block;
+  margin-top: 1.2rem;
+  padding: 0.6em 1.6em;
+  font-family: "Now", sans-serif;
+  font-weight: 500;
+  font-size: 1.1vw;
+  color: #ffffff;
+  background-color: rgb(92, 116, 87);
+  border: 2px solid rgb(92, 116, 87);
+  border-radius: 999px;
+  text-decoration: none;
+  transition: background-color 0.2s ease, color 0.2s ease, transform 0.2s ease;
+}
+
+.juegos-boton:hover {
+  background-color: transparent;
+  color: rgb(92, 116, 87);
+  transform: translateY(-2px);
+}
+
+.juegos-boton:active {
+  transform: translateY(0);
+}
+
+.juegos-boton-grande {
+  font-size: 1.2vw;
+  padding: 0.7em 10em;
+  margin-top: 0;
+}
+
+.juegos-flecha {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 3rem;
+  color: rgb(92, 116, 87);
+  padding: 0 0.5rem;
+  line-height: 1;
+  opacity: 0.7;
+  flex-shrink: 0;
+  transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.juegos-flecha:hover  { transform: scale(1.2); opacity: 1; }
+.juegos-flecha:active { transform: scale(0.95); }
+
+.juegos-dots {
+  display: flex;
+  gap: 0.5rem;
+  padding-top: 1.5rem;
+  justify-content: center;
+}
+
+.juegos-dot {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: rgba(92, 116, 87, 0.35);
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.juegos-dot.active {
+  background-color: rgb(92, 116, 87);
+  transform: scale(1.3);
+}
+
+@media only screen and (max-width: 767px) {
+  .juegos-carrusel {
+    gap: 0.25rem;
+    padding: 0 0.5rem;
+  }
+
+  .juegos-contenido {
+    flex-direction: column;
+    gap: 1rem;
+  }
+
+  .juegos-video {
+    flex: 0 0 auto;
+    max-width: 100%;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    height: auto;
+  }
+
+  .juegos-texto {
+    text-align: center;
+    width: 100%;
+  }
+
+  .juegos-titulo      { font-size: 8vw; }
+  .juegos-descripcion { font-size: 4vw; }
+
+  .juegos-boton {
+    font-size: 4vw;
+    padding: 0.7em 1.8em;
+  }
+
+  .juegos-boton-grande {
+    font-size: 5vw;
+    padding: 0.7em 2em;
+  }
+
+  .juegos-flecha {
+    font-size: 2rem;
+    padding: 0 0.25rem;
+  }
+}

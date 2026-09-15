@@ -1,0 +1,271 @@
+{
+  "lang_code": {
+    "en": "en",
+    "es": "es"
+  },
+  "page_title": {
+    "en": "Miguel GameDev Portfolio",
+    "es": "Miguel GameDev Portfolio"
+  },
+
+  "author_name": {
+    "en": "Miguel Norberto Pérez Ballester",
+    "es": "Miguel Norberto Pérez Ballester"
+  },
+  "intro_role": {
+    "en": "Technical Artist",
+    "es": "Artista Técnico"
+  },
+
+  "nav_about": {
+    "en": "About me",
+    "es": "Sobre mí"
+  },
+  "nav_portfolio": {
+    "en": "Portfolio",
+    "es": "Portfolio"
+  },
+  "nav_skills": {
+    "en": "Skills",
+    "es": "Habilidades"
+  },
+  "nav_experience": {
+    "en": "Experience",
+    "es": "Experiencia"
+  },
+  "nav_games": {
+    "en": "Games",
+    "es": "Juegos"
+  },
+  "nav_education": {
+    "en": "Education",
+    "es": "Educación"
+  },
+
+  "about": {
+    "en": "I'm Miguel, a <b>Technical Artist</b> specialized in VFX, <b>shaders, optimization, procedural creation and more</b>. I have <b>1 year of experience</b> in the industry and I'm looking for my next step in it.<br>On this website you'll see highlighted pieces from my portfolio, as well as games and projects I've taken part in, and my experience and education. To see more of my portfolio, along with breakdowns of my work, check out my <b><a href='https://miguelnpb.artstation.com/' style='color: inherit;'>Artstation</a></b><br>Creating video games has been my passion since I was a kid, and I'm a good team player, efficient, sociable, disciplined and resourceful.",
+    "es": "Soy Miguel, un <b>Artista Técnico</b> especializado en VFX, <b>shaders, optimización, creación procedural y más</b>. Llevo <b>1 año de experiencia</b> en la industria y estoy buscando mi siguiente paso en ella.<br>En esta web verás piezas destacadas de mi portfolio, así como juegos y proyectos donde he participado, y mi experiencia y educación. Para ver más sobre mi portfolio, junto con breakdowns de mis trabajos, mirad mi <b><a href='https://miguelnpb.artstation.com/' style='color: inherit;'>Artstation</a></b><br>La creación de videojuegos me ha apasionado desde pequeño, y soy buen trabajador en equipo, eficiente, sociable, disciplinado y resolutivo."
+  },
+
+  "table_age": {
+    "en": "Age",
+    "es": "Edad"
+  },
+  "table_email": {
+    "en": "E-mail",
+    "es": "E-mail"
+  },
+  "table_residence": {
+    "en": "Residence",
+    "es": "Residencia"
+  },
+  "table_residence_value": {
+    "en": "Spain, Madrid",
+    "es": "España, Madrid"
+  },
+  "table_languages": {
+    "en": "Languages",
+    "es": "Idiomas"
+  },
+  "table_languages_value": {
+    "en": "Spanish (Native), English (Advanced, C1 level)",
+    "es": "Español (Nativo), Inglés (Avanzado, nivel C1)"
+  },
+
+  "portfolio_see_more": {
+    "en": "SEE MORE",
+    "es": "VER MÁS"
+  },
+
+  "skills_software": {
+    "en": "Software",
+    "es": "Software"
+  },
+  "skills_languages": {
+    "en": "Languages",
+    "es": "Lenguajes"
+  },
+  "skills_skills": {
+    "en": "Skills",
+    "es": "Skills"
+  },
+  "skill_particles": {
+    "en": "Particles<br>(VFX graph,<br>Niagara,<br>Shuriken)",
+    "es": "Partículas<br>(VFX graph,<br>Niagara,<br>Shuriken)"
+  },
+  "skill_optimization": {
+    "en": "Optimization",
+    "es": "Optimización"
+  },
+  "skill_pcg": {
+    "en": "Procedural content generation",
+    "es": "Generación contenido procedural"
+  },
+  "skill_tools": {
+    "en": "Tools",
+    "es": "Tools"
+  },
+  "skill_pipeline": {
+    "en": "Graphics pipelines knowledge",
+    "es": "Conocimiento de pipelines de gráficos"
+  },
+  "skill_3d": {
+    "en": "3D Generalist",
+    "es": "Generalista 3D"
+  },
+  "skill_ps5": {
+    "en": "PS5 Porting",
+    "es": "PS5 Porting"
+  },
+  "skill_soft": {
+    "en": "Soft Skills",
+    "es": "Soft Skills"
+  },
+  "skill_english": {
+    "en": "English C1",
+    "es": "Inglés C1"
+  },
+
+  "exp1_role": {
+    "en": "Junior Technical Artist",
+    "es": "Artista Técnico junior"
+  },
+  "exp1_info": {
+    "en": "-Significant optimization for different 2D games with different needs<br>-Design and production of VFX and Shaders<br>",
+    "es": "-Optimización importante para distintos juegos 2D con distintas necesidades<br>-Diseño y producción de VFX y Shaders<br>-Creación de tool de análisis de memoria en runtime para Unity"
+  },
+
+  "exp2_role": {
+    "en": "Mixed Reality Game Developer",
+    "es": "Desarrollador de juegos en Realidad Mixta"
+  },
+  "exp2_info": {
+    "en": "- Programming with Oculus Interaction SDK in Unity<br>-",
+    "es": "- Programación con Oculus Interaction SDK en Unity<br>-Diseño y producción de VFX y Shaders<br>-Rigging básico de modelos y trabajo general como generalista 3D"
+  },
+  "games_prev_aria": {
+    "en": "Previous game",
+    "es": "Juego anterior"
+  },
+  "games_next_aria": {
+    "en": "Next game",
+    "es": "Juego siguiente"
+  },
+
+  "game1_title": {
+    "en": "Cronopunk",
+    "es": "Cronopunk"
+  },
+  "game1_video_title": {
+    "en": "Gameplay Cronopunk",
+    "es": "Gameplay Cronopunk"
+  },
+  "game1_desc": {
+    "en": "Puzzle-platformer where you must rely on your previous attempts, which manifest as shadows, in order to progress. I took part in the design and production of the VFX, shader and optimization.",
+    "es": "Juego de puzles y plataformas donde deberás ayudarte de tus previos intentos que se manifiestan como sombras para poder avanzar.<br>Participé en el diseño y producción de los VFX, shader y optimización."
+  },
+
+  "game2_title": {
+    "en": "Candela Bros",
+    "es": "Candela Bros"
+  },
+  "game2_video_title": {
+    "en": "Gameplay Candela Bros",
+    "es": "Gameplay Candela Bros"
+  },
+  "game2_desc": {
+    "en": "Developed for the Global Game Jam 2026. Two-player puzzle game where each character has a colored light aura that must be combined to create new colors and clear levels. I took part in designing and creating the shader and the additive color system, as well as several VFX and programming tasks. ",
+    "es": "Desarrollado para la Global Game Jam 2026. Juego de puzzles de dos jugadores donde cada personaje tiene un aura de luz de color que deberán combinar para crear nuevos colores y superar niveles.<br>Participé diseñando y creando el shader y sistema de colores aditivos, así como varios VFX y programación. "
+  },
+
+  "game3_title": {
+    "en": "Mail to Atlantis",
+    "es": "Mail to Atlantis"
+  },
+  "game3_video_title": {
+    "en": "Gameplay video 3",
+    "es": "Gameplay juego 3"
+  },
+  "game3_desc": {
+    "en": "Underwater narrative adventure. Responsible for the water effects, the procedural environment generation and asset integration in Unity with an optimized pipeline.",
+    "es": "Aventura narrativa submarina. Responsable de los efectos de agua, la generación procedural del entorno y la integración de assets en Unity con un pipeline optimizado."
+  },
+  "game_button":{
+    "en": "See more",
+    "es": "Ver más"
+  },
+  "edu1_degree": {
+    "en": "Bachelor's Degree in Video Game Design and Development",
+    "es": "Grado Diseño y Desarrollo de Videojuegos"
+  },
+  "edu1_university": {
+    "en": "Complutense University of Madrid",
+    "es": "Universidad Complutense de Madrid"
+  },
+  "edu2_degree": {
+    "en": "Cambridge C1 English",
+    "es": "C1 Inglés Cambridge"
+  },
+
+  "footer_copyright": {
+    "en": "All rights reserved 2026 Miguel Norberto Pérez Ballester",
+    "es": "All rights reserved 2026 Miguel Norberto Pérez Ballester"
+  },
+
+  "alt_hamburger": {
+    "en": "Open menu",
+    "es": "Abrir menú"
+  },
+  "alt_flag_en": {
+    "en": "English",
+    "es": "Inglés"
+  },
+  "alt_flag_es": {
+    "en": "Spanish",
+    "es": "Castellano"
+  },
+  "alt_logo": {
+    "en": "Miguel Pérez logo",
+    "es": "Logotipo de Miguel Pérez"
+  },
+  "alt_profile_photo": {
+    "en": "Miguel profile photo",
+    "es": "Foto perfil Miguel"
+  },
+  "alt_gmail": {
+    "en": "Send an email",
+    "es": "Enviar un correo"
+  },
+  "alt_github": {
+    "en": "GitHub profile",
+    "es": "Perfil de GitHub"
+  },
+  "alt_linkedin": {
+    "en": "LinkedIn profile",
+    "es": "Perfil de LinkedIn"
+  },
+  "alt_itch": {
+    "en": "itch.io profile",
+    "es": "Perfil de itch.io"
+  },
+  "alt_artstation": {
+    "en": "ArtStation profile",
+    "es": "Perfil de ArtStation"
+  },
+  "alt_noname": {
+    "en": "Noname Studios logo",
+    "es": "Logo Noname Studios"
+  },
+  "alt_loke": {
+    "en": "LokExperience logo",
+    "es": "Logo LokExperience"
+  },
+  "alt_ucm": {
+    "en": "Complutense University logo",
+    "es": "Logo Universidad Complutense"
+  },
+  "alt_cambridge": {
+    "en": "Cambridge English logo",
+    "es": "Logo Cambridge English"
+  }
+}

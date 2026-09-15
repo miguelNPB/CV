@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="$$$lang_code$$$">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>$$$page_title$$$</title>
+
+  <link rel="icon" type="image/png" href="assets/favicon.png">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Flex:opsz,wght@8..144,100..1000&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="d-flex overflow-x-hidden">
+    
+  <button id="hamburguerButton" class="d-md-flex d-md-none button-toggle-nav pt-3 mx-2">
+    <img src="assets/3lines.png" class="img-fluid" alt="$$$alt_hamburger$$$">
+  </button>
+
+  <div class="d-flex flex-column col-12 col-md-2 position-fixed collapse navegacion-lateral-container" id="contentDiv">    
+      <div class="d-flex justify-content-center gap-3 col-5 align-self-center">
+        <a href="home_en.html">
+          <img src="assets/ingles_logo.png" class="img-fluid" alt="$$$alt_flag_en$$$">
+        </a>
+        <a href="home_es.html">
+          <img src="assets/castellano_logo.png" class="img-fluid" alt="$$$alt_flag_es$$$">
+        </a>
+      </div>
+      <h1></h1>
+      <div class="navegacion-lateral-logo-img">
+        <img src="assets/MiguelPerez_logo_cropped.png" class="img-fluid" alt="$$$alt_logo$$$">
+      </div>
+      <div class="justify-content-center">
+        <ul class="list-unstyled text-center" id="navLinksContainer">
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#SobreMi"> $$$nav_about$$$ </a>
+          </li>
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#Portfolio"> $$$nav_portfolio$$$ </a>
+          </li>
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#Habilidades"> $$$nav_skills$$$ </a>
+          </li>
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#Juegos"> $$$nav_games$$$ </a>
+          </li>
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#Experiencia"> $$$nav_experience$$$ </a>
+          </li>
+          <li>
+            <a class="nav-link navegacion-lateral-text" href="#Educacion"> $$$nav_education$$$ </a>
+          </li>
+        </ul>
+      </div>
+      <div class="d-flex flex-column mt-auto pb-md-5 text-center">
+          <div class="d-flex col-sm-12 justify-content-center pb-2 pb-md-4">
+              <a class="d-flex flex-row col-6 justify-content-center text-decoration-none navegacion-lateral-footer-element-container" href="https://mail.google.com/mail/?view=cm&to=miguelnorbertoperezballester@gmail.com" target="_blank">
+                <img src="assets/gmail_icon.png" class="img-fluid h-100" alt="$$$alt_gmail$$$">
+              </a>
+          </div>
+          <div class="d-flex col-sm-12 pb-2 pb-md-4">
+            <a class="col-6 text-decoration-none navegacion-lateral-footer-element-container" href="https://github.com/miguelNPB" target="_blank">
+              <img src="assets/github_logo.png" class="img-fluid h-100" alt="$$$alt_github$$$">
+            </a>
+            <a class="col-6 text-decoration-none navegacion-lateral-footer-element-container" href="https://linkedin.com/in/miguel-norberto-pérez-ballester-2b7b81259/" target="_blank">
+              <img src="assets/linkedin_link.png" class="img-fluid h-100" alt="$$$alt_linkedin$$$">
+            </a>
+          </div>
+          <div class="d-flex col-sm-12 pb-2 pb-md-4">
+            <a class="col-6 text-decoration-none navegacion-lateral-footer-element-container" href="https://miguelpb.itch.io/" target="_blank">
+                <img src="assets/itch.io_logo.png" class="img-fluid h-100" alt="$$$alt_itch$$$">
+            </a>
+            <a class="col-6 text-decoration-none navegacion-lateral-footer-element-container" href="https://miguelnpb.artstation.com/" target="_blank">
+                <img src="assets/artstation.png" class="img-fluid h-100" alt="$$$alt_artstation$$$">
+            </a>
+          </div>
+      </div>
+  </div>
+  
+    <div class="background-gradient"></div>
+
+    <div class="col-sm-12 col-md-10 offset-0 offset-md-2 d-flex flex-column">
+      
+      <!-- Sobre mí -->
+      <section class="d-flex flex-column" id="SobreMi">
+    
+        <div class="container-foto-intro d-flex flex-column flex-md-row">
+          <div class="col-12 col-md-5 align-content-center text-center">
+            <img src="assets/FotoPerfilAmpliado.jpeg" class="img-fluid w-75 foto-perfil" alt="$$$alt_profile_photo$$$">
+          </div>
+          <div class="col-12 col-md-8 ps-0 ps-md-5">
+            <h1 class="intro-text">$$$author_name$$$</h1>
+            <h1 class="intro-text-footer">$$$intro_role$$$</h1>
+          </div>
+        </div>
+
+        <hr>
+        
+        <div class="d-flex flex-column align-items-center">
+          <h1 class="section-intro-text pb-4"> $$$nav_about$$$ </h1>
+         <p class="text-center mx-5 about-me-text">$$$about$$$</p>
+          <div class="d-flex col-10">
+            <table class="table tabla-datos-personales w-100">
+              <tbody>
+                <tr>
+                  <th scope="row" class="text-end pe-3 w-50">$$$table_age$$$</th>
+                  <td>21</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end pe-3">$$$table_email$$$</th>
+                  <td>miguelnorbertoperezballester@gmail.com</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end pe-3">$$$table_residence$$$</th>
+                  <td>$$$table_residence_value$$$</td>
+                </tr>
+                <tr>
+                  <th scope="row" class="text-end pe-3">$$$table_languages$$$</th>
+                  <td>$$$table_languages_value$$$</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <hr>
+
+      <!-- Portfolio -->
+      <section class="d-flex align-items-center flex-column pb-5" id="Portfolio">
+        <h1 class="section-intro-text pb-4"> $$$nav_portfolio$$$ </h1>
+
+        <div class="d-flex col-12 row-gap-5 mb-5 column-gap-5 justify-content-center flex-wrap">
+          <div class="col-11 col-md-8  position-relative"> 
+            <a href="https://miguelnpb.artstation.com/projects/Zl8l1N" >
+              <video src="assets/video/silenthillH264.mp4" class="w-100 portfolio-video" preload="metadata" muted autoplay loop></video>
+            </a>
+          </div>
+          
+          <div class="col-11 col-md-8 position-relative"> 
+            <a href="https://miguelnpb.artstation.com/projects/ZlrlaX" >
+              <video src="assets/video/bot720p.mp4" class="w-100 portfolio-video" preload="metadata" muted autoplay loop poster="assets/video/botPlaceholder.jpg"></video>
+            </a>
+          </div>
+
+          <div class="col-11 col-md-8 position-relative"> 
+            <a href="https://miguelnpb.artstation.com/projects/V2v2Kg" >
+              <video src="assets/video/cascada.mp4" class="w-100 portfolio-video" preload="metadata" muted autoplay loop></video>
+            </a>
+          </div>
+
+          <div class="col-11 col-md-5  position-relative"> 
+            <a href="https://miguelnpb.artstation.com/projects/QK6K8Z" >
+              <video src="assets/video/shadowball.mp4" class="w-100 portfolio-video" preload="metadata" muted autoplay loop poster="assets/video/silenthill.jpg"></video>
+            </a>
+          </div>
+          
+          <div class="col-11 col-md-5  position-relative"> 
+            <a href="https://miguelnpb.artstation.com/projects/zxYz1w" >
+              <video src="assets/video/BT.mp4" class="w-100 portfolio-video" preload="metadata" muted autoplay loop></video>
+            </a>
+          </div>
+      </div>
+
+      <!--
+        <a class="portfolio-container col-12" href="https://miguelnpb.artstation.com/">
+          <img src="assets/cronopunk.png" class="portfolio-home-image portfolio-1">
+          <img src="assets/vodkaengine.png" class="portfolio-home-image portfolio-2">
+          <img src="assets/cascada.png" class="portfolio-home-image portfolio-3">
+          <img src="assets/mailToAtlantis.png" class="portfolio-home-image portfolio-4">
+          <img src="assets/sims.png" class="portfolio-home-image portfolio-5">
+          <img src="assets/Taberna.png" class="portfolio-home-image portfolio-6">
+        </a>
+      -->
+        
+        <div class="text-center pt-5">
+          <a class="juegos-boton juegos-boton-grande" href="https://miguelnpb.artstation.com/">
+            $$$portfolio_see_more$$$
+          </a>
+        </div>
+
+      </section>
+
+      <hr>
+
+      <!-- Habilidades -->
+      <section class="d-flex align-items-center flex-column pb-0 pb-md-5" id="Habilidades">
+        <h1 class="section-intro-text pb-4"> $$$nav_skills$$$ </h1>
+
+        <div class="habilidades-container d-flex flex-column flex-md-row col-11">
+
+          <div class="habilidades-columna col-12 col-md-6">
+
+            <h2 class="habilidades-subtitulo">$$$skills_software$$$</h2>
+            <div class="habilidades-lista">
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/unity_logo.png">
+                <p class="habilidades-texto">Unity</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/unreal_logo.png">
+                <p class="habilidades-texto">Unreal</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/blender_logo.png">
+                <p class="habilidades-texto">Blender</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/krita_logo.png">
+                <p class="habilidades-texto">Krita</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/substance_designer_logo.png">
+                <p class="habilidades-texto">Substance <br>Designer</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/houdini_logo.png">
+                <p class="habilidades-texto">Houdini</p>
+              </div>
+                <div class="habilidades-item">
+                  <img class="habilidades-icono" src="assets/git_github_logo.png">
+                  <p class="habilidades-texto">Git</p>
+              </div>
+            </div>
+
+            <h2 class="habilidades-subtitulo habilidades-subtitulo-espaciado">$$$skills_languages$$$</h2>
+            <div class="habilidades-lista">
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/python_logo.png">
+                <p class="habilidades-texto">Python</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/csharp_logo.png">
+                <p class="habilidades-texto">C# (Unity)</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/c++_logo.png">
+                <p class="habilidades-texto">C++</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/javascript_logo.png">
+                <p class="habilidades-texto">Javascript</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/hlsl_logo.png">
+                <p class="habilidades-texto">HLSL</p>
+              </div>
+            </div>
+
+          </div>
+
+          <div class="habilidades-columna col-12 col-md-6">
+            <h2 class="habilidades-subtitulo">$$$skills_skills$$$</h2>
+            <div class="habilidades-lista habilidades-lista-doble">
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/shader_icon.png">
+                <p class="habilidades-texto">Shaders</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/vfx_icon.png">
+                <p class="habilidades-texto">VFX</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/particles_icon.png">
+                <p class="habilidades-texto-smaller">$$$skill_particles$$$</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/optimization_icon.png">
+                <p class="habilidades-texto">$$$skill_optimization$$$</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/profiling_logo.png">
+                <p class="habilidades-texto">Profiling</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/pcc_icon.png">
+                <p class="habilidades-texto-smaller">$$$skill_pcg$$$</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/tools_logo.png">
+                <p class="habilidades-texto">$$$skill_tools$$$</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/pipeline_icon.png">
+                <p class="habilidades-texto-smaller">$$$skill_pipeline$$$</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/3dgeneralist_icon.png">
+                <p class="habilidades-texto">$$$skill_3d$$$</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/playstation_logo.png">
+                <p class="habilidades-texto">$$$skill_ps5$$$</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/vr_logo.png">
+                <p class="habilidades-texto">VR</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/softskills_logo.png">
+                <p class="habilidades-texto">$$$skill_soft$$$</p>
+              </div>
+              <div class="habilidades-item">
+                <img class="habilidades-icono" src="assets/ingles_logo.png">
+                <p class="habilidades-texto">$$$skill_english$$$</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <hr>
+
+      <!-- Juegos -->
+      <section class="d-flex flex-column align-items-center pb-0 pb-md-5" id="Juegos">
+        <h1 class="section-intro-text pb-4"> $$$nav_games$$$ </h1>
+
+        <div class="juegos-carrusel">
+
+          <button class="juegos-flecha" id="juegosPrev" aria-label="$$$games_prev_aria$$$">&#10094;</button>
+
+          <div class="juegos-viewport">
+            <div class="juegos-track" id="juegosTrack">
+
+              <div class="juegos-slide">
+                <div class="juegos-contenido">
+                  <div class="juegos-video" data-video-id="VIDEO_ID_1">
+                    <button class="juegos-video-play" aria-label="$$$game1_video_title$$$">
+                      <img src="assets/cronopunk_videoplaceholder.png" alt="$$$game1_video_title$$$">
+                    </button>
+                  </div>
+                  <div class="juegos-texto">
+                    <h2 class="juegos-titulo">$$$game1_title$$$</h2>
+                    <p class="juegos-descripcion">$$$game1_desc$$$</p>
+                    <a class="juegos-boton" href="https://store.steampowered.com/app/5085800/CronoPunk/" target="_blank" rel="noopener">
+                      $$$game_button$$$
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <div class="juegos-slide">
+                <div class="juegos-contenido">
+                  <div class="juegos-video" data-video-id="V83eXLGw_OQ">
+                    <button class="juegos-video-play" aria-label="$$$game2_video_title$$$">
+                      <img src="assets/Candelabros_videoplaceholder.png" alt="$$$game2_video_title$$$">
+                    </button>
+                  </div>
+                  <div class="juegos-texto">
+                    <h2 class="juegos-titulo">$$$game2_title$$$</h2>
+                    <p class="juegos-descripcion">$$$game2_desc$$$</p>
+                    <a class="juegos-boton" href="https://jesuggc.itch.io/candela-bros" target="_blank" rel="noopener">
+                      $$$game_button$$$
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!--
+                <div class="juegos-slide">
+                  <div class="juegos-contenido">
+                    <div class="juegos-video" data-video-id="VIDEO_ID_3">
+                      <button class="juegos-video-play" aria-label="$$$game3_video_title$$$">
+                        <img src="assets/video/placeholder3.jpg" alt="$$$game3_video_title$$$">
+                      </button>
+                    </div>
+                    <div class="juegos-texto">
+                      <h2 class="juegos-titulo">$$$game3_title$$$</h2>
+                      <p class="juegos-descripcion">$$$game3_desc$$$</p>
+                      <a class="juegos-boton" href="URL_JUEGO_3" target="_blank" rel="noopener">
+                        $$$game_button$$$
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                -->
+
+            </div>
+          </div>
+
+          <button class="juegos-flecha" id="juegosNext" aria-label="$$$games_next_aria$$$">&#10095;</button>
+
+        </div>
+
+        <div class="juegos-dots" id="juegosDots">
+          <span class="juegos-dot active" data-index="0"></span>
+          <span class="juegos-dot" data-index="1"></span>
+          <!--
+            <span class="juegos-dot" data-index="2"></span>
+          -->
+        </div>
+      </section>
+
+      <hr>
+
+      <!-- Experiencia -->
+      <section class="d-flex flex-column pb-0 pb-md-5 text-center align-items-center" id="Experiencia">
+        <h1 class="section-intro-text pb-4"> $$$nav_experience$$$ </h1>
+
+        <div class="lista-educacion d-flex flex-column col-12 mx-auto gap-4">
+
+          <div class="d-flex flex-row align-items-center justify-content-center text-start gap-3 p-3 rounded">
+            <div class="col-2 col-md-2 text-center">
+              <img src="assets/noname_logo.png" class="img-fluid" alt="$$$alt_noname$$$">
+            </div>
+            <div class="col-8 col-md-5">
+              <p class="educacion-texto-year mb-0">2026 / 1 &nbsp - &nbsp 2027 / 1</p>
+              <p class="educacion-texto-title mb-0">Noname Studios</p>
+              <p class="educacion-texto-year mb-0">$$$exp1_role$$$</p>
+              <p class="educacion-texto-extra mb-0">$$$exp1_info$$$</p>
+            </div>
+          </div>
+
+          <div class="d-flex flex-row align-items-center justify-content-center text-start gap-3 p-3 rounded">
+            <div class="col-2 col-md-2 text-center">
+              <img src="assets/lokexperience_logo.png" class="img-fluid" alt="$$$alt_loke$$$">
+            </div>
+            <div class="col-8 col-md-5">
+              <p class="educacion-texto-year mb-0">2025 / 9 &nbsp - &nbsp 2025 / 12</p>
+              <p class="educacion-texto-title mb-0">LokExperience</p>
+              <p class="educacion-texto-year mb-0">$$$exp2_role$$$</p>
+              <p class="educacion-texto-extra mb-0">$$$exp2_info$$$</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <hr>
+
+      <!-- Educacion -->
+      <section class="d-flex flex-column pb-0 pb-md-5 text-center align-items-center" id="Educacion">
+        <h1 class="section-intro-text pb-md-4 pb-2"> $$$nav_education$$$ </h1>
+
+        <div class="lista-educacion d-flex flex-column col-12 mx-auto gap-4">
+
+          <div class="d-flex flex-row align-items-center justify-content-center text-start gap-3 p-3 rounded">
+            <div class="col-2 col-md-2 text-center">
+              <img src="assets/ucm_logo.png" class="img-fluid" alt="$$$alt_ucm$$$">
+            </div>
+            <div class="col-8 col-md-5">
+              <p class="educacion-texto-title mb-0">$$$edu1_degree$$$</p>
+              <p class="educacion-texto-year mb-0">2022-2026</p>
+              <p class="educacion-texto-year mb-0">$$$edu1_university$$$</p>
+            </div>
+          </div>
+          
+          <div class="d-flex flex-row align-items-center justify-content-center text-start gap-3 p-3 rounded">
+            <div class="col-2 col-md-2 text-center">
+              <img src="assets/cambridge_logo.png" class="img-fluid" alt="$$$alt_cambridge$$$">
+            </div>
+            <div class="col-8 col-md-5">
+              <p class="educacion-texto-title mb-0">$$$edu2_degree$$$</p>
+              <p class="educacion-texto-year mb-0">2021 / 10</p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </div>
+
+  </div>
+
+  <footer class="py-3">
+    <div class="container text-center">
+      <p>&copy; $$$footer_copyright$$$</p>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script_home.js"></script>
+</body>
+</html>
