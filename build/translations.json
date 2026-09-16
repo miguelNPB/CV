@@ -44,7 +44,7 @@
 
   "about": {
     "en": "I'm Miguel, a <b>Technical Artist</b> specialized in VFX, <b>shaders, optimization, procedural creation and more</b>. I have <b>1 year of experience</b> in the industry and I'm looking for my next step in it.<br>On this website you'll see highlighted pieces from my portfolio, as well as games and projects I've taken part in, and my experience and education. To see more of my portfolio, along with breakdowns of my work, check out my <b><a href='https://miguelnpb.artstation.com/' style='color: inherit;'>Artstation</a></b><br>Creating video games has been my passion since I was a kid, and I'm a good team player, efficient, sociable, disciplined and resourceful.",
-    "es": "Soy Miguel, un <b>Artista Técnico</b> especializado en VFX, <b>shaders, optimización, creación procedural y más</b>. Llevo <b>1 año de experiencia</b> en la industria y estoy buscando mi siguiente paso en ella.<br>En esta web verás piezas destacadas de mi portfolio, así como juegos y proyectos donde he participado, y mi experiencia y educación. Para ver más sobre mi portfolio, junto con breakdowns de mis trabajos, mirad mi <b><a href='https://miguelnpb.artstation.com/' style='color: inherit;'>Artstation</a></b><br>La creación de videojuegos me ha apasionado desde pequeño, y soy buen trabajador en equipo, eficiente, sociable, disciplinado y resolutivo."
+    "es": "Soy Miguel, un <b>Artista Técnico</b> especializado en VFX, <b>shaders, optimización, creación procedural y más</b>. Llevo <b>1 año de experiencia</b> en la industria y estoy buscando mi siguiente paso en ella.<br>En esta web verás piezas destacadas de mi portfolio, así como juegos y proyectos donde he participado, y mi experiencia y educación. Para ver más sobre mi portfolio, junto con breakdowns de mis trabajos, mirar mi <b><a href='https://miguelnpb.artstation.com/' style='color: inherit;'>Artstation</a></b><br>La creación de videojuegos me ha apasionado desde pequeño, y soy buen trabajador en equipo, eficiente, sociable, disciplinado y resolutivo."
   },
 
   "table_age": {
@@ -131,8 +131,8 @@
     "es": "Artista Técnico junior"
   },
   "exp1_info": {
-    "en": "-Significant optimization for different 2D games with different needs<br>-Design and production of VFX and Shaders<br>",
-    "es": "-Optimización importante para distintos juegos 2D con distintas necesidades<br>-Diseño y producción de VFX y Shaders<br>-Creación de tool de análisis de memoria en runtime para Unity"
+    "en": "-Significant optimization for different 2D games with different needs<br>-Design and production of VFX and Shaders<br>-Creation of a tool to see memory on runtime for Unity",
+    "es": "-Optimización importante para distintos juegos 2D con distintas necesidades<br>-Diseño y producción de VFX y Shaders<br>-Creación de tool visor de memoria en runtime para Unity"
   },
 
   "exp2_role": {
@@ -140,7 +140,7 @@
     "es": "Desarrollador de juegos en Realidad Mixta"
   },
   "exp2_info": {
-    "en": "- Programming with Oculus Interaction SDK in Unity<br>-",
+    "en": "- Programming with Oculus Interaction SDK in Unity<br>-Design and production of VFX and Shaders<br>-Basic rigging of models and general work as generalist 3D",
     "es": "- Programación con Oculus Interaction SDK en Unity<br>-Diseño y producción de VFX y Shaders<br>-Rigging básico de modelos y trabajo general como generalista 3D"
   },
   "games_prev_aria": {
