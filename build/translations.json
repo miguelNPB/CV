@@ -121,6 +121,10 @@
     "en": "Soft Skills",
     "es": "Soft Skills"
   },
+  "skill_documentation":{
+    "en": "Documentation",
+    "es": "Documentación"
+  },
   "skill_english": {
     "en": "English C1",
     "es": "Inglés C1"
@@ -131,8 +135,8 @@
     "es": "Artista Técnico junior"
   },
   "exp1_info": {
-    "en": "-Significant optimization for different 2D games with different needs<br>-Design and production of VFX and Shaders<br>-Creation of a tool to see memory on runtime for Unity",
-    "es": "-Optimización importante para distintos juegos 2D con distintas necesidades<br>-Diseño y producción de VFX y Shaders<br>-Creación de tool visor de memoria en runtime para Unity"
+    "en": "-Significant optimization for two 2D games with different needs<br>-Design and production of VFX and Shaders<br>-Creation of a tool to see memory on runtime for Unity",
+    "es": "-Optimización importante para dos juegos 2D con distintas necesidades<br>-Diseño y producción de VFX y Shaders<br>-Creación de tool visor de memoria en runtime para Unity"
   },
 
   "exp2_role": {
