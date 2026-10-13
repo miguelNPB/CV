@@ -206,6 +206,10 @@
     "en": "Complutense University of Madrid",
     "es": "Universidad Complutense de Madrid"
   },
+  "edu1_university_extra": {
+    "en": "-Creation of a videogame engine from the ground up, using OGRE3D, FMOD, Physx, LUA and SDL2.<br>-Development for the PS5 platform.",
+    "es": "-Creación de un motor de videojuegos desde cero, usando OGRE3D, FMOD, Physx, LUA y SDL2.<br>-Desarrollo para la plataforma PS5."
+  },
   "edu2_degree": {
     "en": "Cambridge C1 English",
     "es": "C1 Inglés Cambridge"
